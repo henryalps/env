@@ -1,0 +1,509 @@
+# 这个 viminfo 文件是由 Vim 7.4 所产生。
+# 如果想要自行修改请特别小心！
+
+# 文件被写的时候 ‘encoding’ 的值
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# 上个 Search 图案：
+~MSle0~/content
+
+# 上个 替换 Search 图案：
+~MSle0&thee
+
+# 最后替换的字符串
+$
+
+# 命令行 历史记录 (从新到旧)：
+:q
+:wq
+:q!
+:w
+:.!
+:!hexo d -g
+:r TEST 
+:'<,'>w TEST
+:!rm TEST
+:!dir
+:w TEST
+:s/thee/the/g
+:s/thee/the
+:'<,'>q
+:set compatible?
+:set compatible>
+:colorscheme darkblue
+:colorscheme Dark2
+:colorscheme desert
+:colorscheme evening
+
+# 查找字符串 历史记录 (从新到旧)：
+?/content
+? \s\+$
+?/scalaVersion
+?/disqus
+? <%
+?/comments
+? thee
+??errroor
+?/errroor
+? \<export\>
+?/DEFAULT_RUNLEVEL
+?/map ;
+?/map
+
+# 表达式 历史记录 (从新到旧)：
+
+# 输入行 历史记录 (从新到旧)：
+
+# 输入行 历史记录 (从新到旧)：
+
+# 寄存器:
+"0	CHAR	0
+	<a href="http://hexo.io/" target="_blank">Hexo</a>
+"1	LINE	0
+	syntax on
+"2	CHAR	0
+	<% if (!index && post.comments && config.disqus_shortname){ %>
+	<section id="comments">
+	  <div id="disqus_thread">
+	    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	  </div>
+	</section>
+	<% } %>
+"3	LINE	0
+	---> b) Violets are blue,
+"4	LINE	0
+	---> b) Violets are blue,
+"5	LINE	0
+	---> a) Roses are red,
+"6	LINE	0
+	---> d) Can you learn too?
+"7	LINE	0
+	---> d) Can you learn too?
+"8	LINE	0
+	---> d) Can you learn too?
+"9	LINE	0
+	--->  5)  Clocks tell time,
+	--->  6)  Sugar is sweet
+"u	CHAR	0
+	ti:�kbldfj
+""-	CHAR	0
+	5
+
+# 文件标记:
+'0  1  9875  ~/workspace/tmp_workspace/DeerResume/js/wizMarkdown.min.js
+'1  1  17  ~/shadowsocks-android/project/build.properties
+'2  40  26  ~/shadowsocks-android/build.sbt
+'3  1  0  ~/shadowsocks-android/build.s
+'4  24  1  /mnt/f/blog/source/_posts/Gitlab-Redmine-Jenkins折腾.md
+'5  5  0  /mnt/f/blog/source/_posts/Gitlab-Redmine-Jenkins折腾.md
+'6  42  0  /mnt/f/blog/source/_posts/e5-b0-8f-e6-8a-80-e5-b7-a7-ef-bc-88to-be-continue-ef-bc-89.md
+'7  1  0  /mnt/f/blog/source/_posts/e5-b8-b8-e7-94-a8-e7-9a-84linux-e7-ab-af-e5-8f-a3to-be-continue.md
+'8  1  0  /mnt/f/blog/source/_posts
+'9  4  0  /etc/tsocks.conf
+
+# 跳转列表 (从新到旧):
+-'  1  9875  ~/workspace/tmp_workspace/DeerResume/js/wizMarkdown.min.js
+-'  1  17  ~/shadowsocks-android/project/build.properties
+-'  40  26  ~/shadowsocks-android/build.sbt
+-'  1  0  ~/shadowsocks-android/build.sbt
+-'  1  0  ~/shadowsocks-android/build.s
+-'  24  1  /mnt/f/blog/source/_posts/Gitlab-Redmine-Jenkins折腾.md
+-'  5  0  /mnt/f/blog/source/_posts/Gitlab-Redmine-Jenkins折腾.md
+-'  1  0  /mnt/f/blog/source/_posts/Gitlab-Redmine-Jenkins折腾.md
+-'  42  0  /mnt/f/blog/source/_posts/e5-b0-8f-e6-8a-80-e5-b7-a7-ef-bc-88to-be-continue-ef-bc-89.md
+-'  37  79  /mnt/f/blog/source/_posts/e5-b0-8f-e6-8a-80-e5-b7-a7-ef-bc-88to-be-continue-ef-bc-89.md
+-'  1  0  /mnt/f/blog/source/_posts/e5-b8-b8-e7-94-a8-e7-9a-84linux-e7-ab-af-e5-8f-a3to-be-continue.md
+-'  1  0  /mnt/f/blog/source/_posts
+-'  4  0  /etc/tsocks.conf
+-'  1  0  /etc/tsocks.conf
+-'  133  63  ~/.bashrc
+-'  134  0  ~/.bashrc
+-'  124  0  ~/.bashrc
+-'  1  0  /mnt/f/blog/source/_posts/e5-b0-8f-e6-8a-80-e5-b7-a7-ef-bc-88to-be-continue-ef-bc-89.md
+-'  52  0  /etc/init/rc-sysinit.conf
+-'  53  5  /etc/init/rc-sysinit.conf
+-'  42  0  /etc/init/rc-sysinit.conf
+-'  1  0  /etc/init/rc-sysinit.conf
+-'  13  65  /etc/rc.local
+-'  14  0  /etc/rc.local
+-'  1  0  /etc/rc.local
+-'  1883  23  ~/xl2tpd/xl2tpd-1.3.6+dfsg/control.c
+-'  1824  23  ~/xl2tpd/xl2tpd-1.3.6+dfsg/control.c
+-'  1  0  ~/xl2tpd/xl2tpd-1.3.6+dfsg/control.c
+-'  1776  0  /var/log/syslog
+-'  1801  0  /var/log/syslog
+-'  1  0  /var/log/syslog
+-'  6  17  ~/下载/matplotpp/examples/ex108_animation.cc
+-'  66  4  ~/下载/matplotpp/examples/ex108_animation.cc
+-'  1  0  ~/下载/matplotpp/examples/ex108_animation.cc
+-'  15  0  ~/文档/matlab_workspace/2.txt
+-'  1  0  ~/文档/matlab_workspace/2.txt
+-'  2  35  /etc/environment
+-'  1  0  /etc/environment
+-'  123  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  263  0  ~/log
+-'  198  0  ~/log
+-'  1  0  ~/log
+-'  167  0  ~/log
+-'  1  51  /etc/udev/rules.d/50-android.rules
+-'  2  0  /etc/udev/rules.d/50-android.rules
+-'  1  0  /etc/udev/rules.d/51-android.rules
+-'  1  0  ~/exit
+-'  1  0  ~/文档/test.txt
+-'  283  0  ~/log
+-'  1  0  ~/文档/实验室网站/SNARC/Gemfile
+-'  1303  0  ~/workspace/C_workspace/getResult/out.txt
+-'  1  0  ~/workspace/C_workspace/getResult/out.txt
+-'  1  0  ~/文档/android_workspace/getInterpolationResult/data.txt
+-'  262  49  ~/文档/实验室网站/jae_snarctest/README.rdoc
+-'  1  0  ~/文档/实验室网站/jae_snarctest/README.rdoc
+-'  71  0  ~/文档/python_workspace/getPic/url.txt
+-'  1  0  ~/文档/python_workspace/getPic/url.txt
+-'  1  0  ~/.wine/system.reg
+-'  1  0  ~/软件/goagent-3.1.20/local/proxy.ini
+-'  46  0  /etc/apt/sources.list
+-'  1  0  /etc/apt/sources.list
+-'  1  0  /ect/apt/sources.list
+-'  1  0  /ect/apt/sources.list
+-'  46  0  /etc/apt/sources.list
+-'  1  0  /etc/apt/sources.list
+-'  1  0  /ect/apt/sources.list
+-'  1  0  /ect/apt/sources.list
+-'  46  0  /etc/apt/sources.list
+-'  1  0  /etc/apt/sources.list
+-'  1  0  /ect/apt/sources.list
+-'  1  0  /ect/apt/sources.list
+-'  46  0  /etc/apt/sources.list
+-'  1  0  /etc/apt/sources.list
+-'  1  0  /ect/apt/sources.list
+-'  1  0  /ect/apt/sources.list
+-'  1  0  ~/软件/goagent-3.1.20/local/proxy.ini
+-'  46  0  /etc/apt/sources.list
+-'  1  0  /etc/apt/sources.list
+-'  1  0  /ect/apt/sources.list
+-'  1  0  /ect/apt/sources.list
+-'  46  0  /etc/apt/sources.list
+-'  1  0  /etc/apt/sources.list
+-'  1  0  /ect/apt/sources.list
+-'  1  0  /ect/apt/sources.list
+-'  46  0  /etc/apt/sources.list
+-'  1  0  /etc/apt/sources.list
+-'  1  0  /ect/apt/sources.list
+-'  1  0  /ect/apt/sources.list
+-'  46  0  /etc/apt/sources.list
+-'  1  0  /etc/apt/sources.list
+
+# 文件内的标记历史记录 (从新到旧):
+
+> ~/workspace/tmp_workspace/DeerResume/js/wizMarkdown.min.js
+	"	1	9875
+
+> ~/shadowsocks-android/project/build.properties
+	"	1	17
+	^	1	18
+	.	1	17
+	+	1	17
+
+> ~/shadowsocks-android/build.sbt
+	"	40	26
+
+> ~/shadowsocks-android/build.s
+	"	1	0
+
+> /mnt/f/blog/source/_posts/Gitlab-Redmine-Jenkins折腾.md
+	"	24	1
+	^	24	2
+	.	24	2
+	+	4	3
+	+	4	3
+	+	6	0
+	+	4	3
+	+	16	33
+	+	23	0
+	+	18	1
+	+	21	1
+	+	24	2
+
+> ~/shadowsocks-android/local.properties
+	"	3	29
+	^	3	30
+	.	3	29
+	+	1	11
+	+	2	10
+	+	3	29
+
+> /mnt/f/blog/themes/landscape/layout/_partial/footer.ejs
+	"	8	128
+	^	8	129
+	.	8	79
+	+	1	0
+	+	8	102
+	+	8	79
+
+> /mnt/f/blog/themes/landscape/layout/_partial/article.ejs
+	"	32	3
+	^	32	30
+	.	32	29
+	+	59	0
+	+	58	59
+	+	58	25
+	+	58	36
+	+	58	157
+	+	58	42
+	+	58	86
+	+	58	53
+	+	58	92
+	+	58	45
+	+	58	82
+	+	58	92
+	+	58	161
+	+	58	85
+	+	58	114
+	+	58	142
+	+	58	92
+	+	58	102
+	+	58	130
+	+	58	109
+	+	58	99
+	+	58	108
+	+	58	2
+	+	58	0
+	+	59	0
+	+	31	0
+	+	32	29
+
+> /mnt/f/blog/_config.yml
+	"	66	29
+	^	66	30
+	.	66	29
+	+	8	0
+	+	67	30
+	+	68	0
+	+	8	24
+	+	46	0
+	+	66	29
+
+> /mnt/f/blog/themes/landscape/_config.yml
+	"	26	0
+	^	24	22
+	.	24	21
+	+	23	15
+	+	24	21
+
+> /mnt/f/blog/themes/landscape/README.md
+	"	111	0
+
+> /tmp/tutorcwSLVB
+	"	1010	0
+	^	816	35
+	.	816	34
+	+	456	61
+	+	531	0
+	+	567	30
+	+	674	0
+	+	741	74
+	+	745	33
+	+	768	50
+	+	791	35
+	+	816	8
+	+	817	0
+	+	816	34
+
+> /tmp/tutorjIAb5p
+	"	454	0
+	^	454	0
+	.	454	0
+	+	84	30
+	+	108	18
+	+	130	46
+	+	132	41
+	+	130	19
+	+	131	18
+	+	133	51
+	+	186	36
+	+	204	0
+	+	203	46
+	+	222	46
+	+	294	28
+	+	315	0
+	+	317	0
+	+	336	0
+	+	382	0
+	+	386	0
+	+	384	0
+	+	385	0
+	+	386	0
+	+	382	0
+	+	385	0
+	+	383	0
+	+	403	59
+	+	428	54
+	+	454	0
+
+> /tmp/tutor7TNGyZ
+	"	65	6
+
+> /mnt/f/blog/source/_posts/test
+	"	2	0
+	^	2	6
+	.	2	7
+	+	1	7
+	+	2	7
+
+> ~/.vimrc
+	"	286	0
+	^	286	12
+	.	286	0
+	+	265	0
+	+	266	0
+	+	264	145
+	+	273	0
+	+	265	0
+	+	274	0
+	+	286	52
+	+	287	27
+	+	286	0
+	o	286	0
+
+> blog/e5-b0-8f-e6-8a-80-e5-b7-a7-ef-bc-88to-be-continue-ef-bc-89.md
+	"	1	0
+
+> /mnt/f/blog/source/_posts/e5-b0-8f-e6-8a-80-e5-b7-a7-ef-bc-88to-be-continue-ef-bc-89.md
+	"	42	0
+	^	37	88
+	.	37	79
+	+	30	0
+	+	31	10
+	+	31	7
+	+	33	15
+	+	35	56
+	+	37	302
+	+	37	79
+
+> /mnt/f/blog/source/_posts/e5-b8-b8-e7-94-a8-e7-9a-84linux-e7-ab-af-e5-8f-a3to-be-continue.md
+	"	1	0
+
+> /etc/tsocks.conf
+	"	4	0
+	.	4	0
+	+	4	0
+
+> ~/.bashrc
+	"	133	63
+	^	134	1
+	.	134	0
+	+	122	31
+	+	123	29
+	+	124	60
+	+	133	65
+	+	134	0
+
+> /etc/init/rc-sysinit.conf
+	"	52	0
+	^	53	6
+	.	53	5
+	+	53	5
+
+> /etc/init.d/rc.local
+	"	1	9
+	^	1	10
+	.	1	9
+	+	16	0
+	+	1	9
+
+> /etc/rc.local
+	"	13	65
+	^	14	0
+	.	13	66
+	+	13	0
+	+	15	20
+	+	17	20
+	+	19	14
+	+	13	66
+
+> ~/xl2tpd/xl2tpd-1.3.6+dfsg/control.c
+	"	1883	23
+	.	80	0
+	+	80	0
+
+> /var/log/syslog
+	"	1776	0
+	.	7	0
+	+	7	0
+
+> ~/下载/matplotpp/examples/ex108_animation.cc
+	"	6	17
+	.	8	0
+	+	8	0
+
+> ~/文档/matlab_workspace/2.txt
+	"	15	0
+	^	15	53
+	.	15	52
+	+	15	53
+	+	16	0
+	+	15	52
+
+> /etc/environment
+	"	2	35
+	^	2	36
+	.	2	35
+	+	1	0
+	+	2	35
+
+> ~/log
+	"	263	0
+	.	152	0
+	+	152	0
+
+> /etc/udev/rules.d/50-android.rules
+	"	1	51
+	.	2	0
+	+	2	0
+
+> /etc/udev/rules.d/51-android.rules
+	"	1	0
+	^	1	1
+	.	1	0
+	+	1	70
+	+	3	38
+	+	1	70
+	+	2	38
+	+	1	0
+
+> ~/exit
+	"	1	0
+
+> ~/文档/实验室网站/SNARC/Gemfile
+	"	1	0
+
+> ~/workspace/C_workspace/getResult/out.txt
+	"	1303	0
+
+> ~/文档/android_workspace/getInterpolationResult/data.txt
+	"	1	0
+
+> ~/文档/实验室网站/jae_snarctest/README.rdoc
+	"	262	49
+	^	262	50
+	.	262	49
+	+	262	49
+
+> ~/文档/python_workspace/getPic/url.txt
+	"	71	0
+
+> ~/.wine/system.reg
+	"	1	0
+
+> ~/软件/goagent-3.1.20/local/proxy.ini
+	"	1	0
+
+> /etc/apt/sources.list
+	"	46	0
+
+> /ect/apt/sources.list
+	"	1	0
