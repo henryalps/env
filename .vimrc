@@ -31,6 +31,8 @@ Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 " Auto format plugin
 Plugin 'Chiel92/vim-autoformat'
+
+Bundle 'ervandew/supertab'
 " Auto complete plugin
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'Valloric/ListToggle'
@@ -40,7 +42,6 @@ Plugin 'SirVer/ultisnips'
 
 " Snippets are separated from the engine. Add this if you want them:
 Plugin 'honza/vim-snippets'
-
 " Gist plugin
 Bundle 'mattn/webapi-vim'
 Bundle 'mattn/gist-vim'
@@ -62,13 +63,30 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 " trigger configuration. do not use <tab> if you use https://github.com/valloric/youcompleteme.
-let g:ultisnipsexpandtrigger="<tab>"
-let g:ultisnipsjumpforwardtrigger="<c-b>"
-let g:ultisnipsjumpbackwardtrigger="<c-z>"
+" make YCM compatible with UltiSnips (using supertab)
+let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
+let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
+let g:SuperTabDefaultCompletionType = '<C-n>'
+
+" better key bindings for UltiSnipsExpandTrigger
+let g:UltiSnipsExpandTrigger = "<tab>"
+let g:UltiSnipsJumpForwardTrigger = "<tab>"
+let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
+let g:UltiSnipsSnippetDirectories=['UltiSnips']
+let g:UltiSnipsSnippetsDir = '~/.vim/UltiSnips'
+let g:UltiSnipsListSnippets = '<C-Tab>'
 
 " if you want :ultisnipsedit to split your window.
 let g:ultisnipseditsplit="vertical"
-"
-
+" Use this option to define the table corner character
+let g:table_mode_corner = '|'
+" Use this option to define the delimiter which used by
+let g:table_mode_delimiter = ' '
+" escape CR repair
+let g:SuperTabCrMapping = 0
+let g:vim_markdown_folding_disabled=1
+" Vim markdown setting
+let g:vim_markdown_math=1
+let g:vim_markdown_frontmatter=1
 inoremap jj <esc>
-inoremap <C-u> <esc>gUiwea
+inoremap <C-u> <esc>

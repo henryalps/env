@@ -8,57 +8,57 @@
 # hlsearch on (H) or off (h):
 ~h
 # 上个 Search 图案：
-~MSle0~/Bundle
+~MSle0~/^1
 
 # 上个 替换 Search 图案：
-~MSle0&case_id
+~MSle0&\\
 
 # 最后替换的字符串
-$record_name
+$
 
 # 命令行 历史记录 (从新到旧)：
-:q
-:BundleInstall
-:w
-:viminstall
 :wq
-:set paste
-:qall!
-:close
-:split test
-:split
-:vsplit
-:quit
-:save test
-:new
-:args
-:next
-:help E37
-:edit foo.txt
-:theme
+:q
 :q!
+:wqw
+://kevinsfork.info/u
+:w
+:wqall
+:vsplit search.ejs
+:set paste
+:wq!
+:wwq
+:!ls
+:!hexo s
+:!hexo -s
+:vsplit toc.style
+:Gist
+:Gist -p
+:vsplit ~/.vim/UltiSnips/mkd.snippets
+:vsplit ~/.vim/UltiSnips/ejs.snippets
+:set tabstop
 
 # 查找字符串 历史记录 (从新到旧)：
-?/Bundle
-?/Plugin
-?/comple
-?/Gist
-?/gist
-?/也一样
-?/作为
-?/shadowsocks
-?/IPv6网络
-?/evoburst
-?/quote
-?/theme
-?/空格
-? find . -size
-?/language
-?/lang
-?/scheme
-?/blockquote
-?/img,
-?/img.video
+?/^1
+?/^2
+?/toc
+?/widgets
+?/zh
+?/Unity
+? ECG
+?/mat
+?/81
+?/文件后缀
+? \<经过\>
+?/table_mode
+?/align_char
+?/table_mode_align_char
+?/align
+?/wfdbdesc
+?/数量
+?/more
+?/plugin
+?/MEMO
 
 # 表达式 历史记录 (从新到旧)：
 
@@ -68,371 +68,585 @@ $record_name
 
 # 寄存器:
 "0	CHAR	0
-	urlFileName;
-""1	CHAR	0
-	" trigger configuration. do not use <tab> if you use https://github.com/valloric/youcompleteme.
-	let g:ultisnipsexpandtrigger="<tab>"
-	let g:ultisnipsjumpforwardtrigger="<c-b>"
-	let g:ultisnipsjumpbackwardtrigger="<c-z>"
-	
-	" if you want :ultisnipsedit to split your window.
-	let g:ultisnipseditsplit="vertical"
-	"
-"2	CHAR	0
-	" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
-	let g:UltiSnipsExpandTrigger="<tab>"
-	let g:UltiSnipsJumpForwardTrigger="<c-b>"
-	let g:UltiSnipsJumpBackwardTrigger="<c-z>"
-	
-	" If you want :UltiSnipsEdit to split your window.
-	let g:UltiSnipsEditSplit="vertical"
-	"
+	<li><a href="http://www.fuzihao.org/blog/" title="zhihao fu">切问录</a></li>
+	<
+"1	BLOCK	0
+	#
+	#
+"2	BLOCK	0
+	#
+	#
 "3	LINE	0
-	        server server1 2607:3f00:11:40f::2:443 maxconn 20480
+	<li><a href="http://www.fuzihao.org/blog/" title="zhihao fu">切问录</a></li>
 "4	LINE	0
-	    ××××本段已被割除××××
+	<script src="<%- config.root %>js/swiftype.js"></script>
 "5	LINE	0
-		   }
+	</script>
 "6	LINE	0
-			   return map;
+	<script type="text/javascript">
 "7	LINE	0
-		   if(filename.length() < 5){
+	<input type="text" class="st-default-search-input" placeholder="<%= __('search') %>"> 
 "8	LINE	0
-	                        System.out.println(lineTxt);
+	<input type="search" name="q" id ="search-input" results="0" placeholder="<%= __('search') %>">
 "9	LINE	0
-		   String[] splitResult = url.split('/');
+	
 "l	CHAR	0
 	2
-"-	CHAR	0
-	quoteblock 
+""-	CHAR	0
+	 
 
 # 文件标记:
-'0  49  34  ~/.vimrc
-'1  43  0  ~/.vimrc
-'2  72  0  ~/.vimrc
-'3  63  111  /mnt/f/blog/source/_posts/MEMO-To-be-continue.md
-'4  1  0  ~/foo.txt
-'5  46  22  ~/.vimrc
-'6  4  15  /mnt/f/blog/source/_posts/Unity入手笔记.md
-'7  64  0  /mnt/f/blog/source/_posts/在教育网IPv6网络环境下设置Shadowsocks中继的-解决方案-etc.md
-'8  30  0  /mnt/f/blog/source/_posts/在教育网IPv6网络环境下设置Shadowsocks中继的-解决方案-etc.md
-'9  13  258  /mnt/f/blog/source/_posts/在教育网IPv6网络环境下设置Shadowsocks中继的-解决方案-etc.md
+'0  7  0  ~/.bash_profile
+'1  6  0  /etc/shells
+'2  6  0  ~/.bash_profile
+'3  1  0  /etc/shells
+'4  7  0  /etc/shells
+'5  134  0  ~/.bashrc
+'6  71  0  /etc/bash.bashrc
+'7  69  0  /etc/bash.bashrc
+'8  6  64  /mnt/f/blog/themes/lightum/layout/_widget/links.ejs
+'9  4  0  /mnt/f/blog/themes/lightum/layout/_partial/after_footer.ejs
 
 # 跳转列表 (从新到旧):
--'  49  34  ~/.vimrc
--'  1  0  ~/.vimrc
--'  43  0  ~/.vimrc
--'  57  4  ~/.vimrc
--'  50  14  ~/.vimrc
--'  42  0  ~/.vimrc
--'  39  0  ~/.vimrc
--'  37  0  ~/.vimrc
--'  30  0  ~/.vimrc
--'  29  15  ~/.vimrc
--'  28  2  ~/.vimrc
--'  26  0  ~/.vimrc
--'  23  2  ~/.vimrc
--'  21  0  ~/.vimrc
--'  19  2  ~/.vimrc
--'  17  0  ~/.vimrc
--'  15  7  ~/.vimrc
--'  13  0  ~/.vimrc
--'  72  0  ~/.vimrc
--'  44  0  ~/.vimrc
--'  34  7  ~/.vimrc
--'  63  111  /mnt/f/blog/source/_posts/MEMO-To-be-continue.md
--'  33  0  /mnt/f/blog/source/_posts/MEMO-To-be-continue.md
+-'  7  0  ~/.bash_profile
+-'  1  0  ~/.bash_profile
+-'  6  0  /etc/shells
+-'  1  0  /etc/shells
+-'  6  0  ~/.bash_profile
+-'  7  0  /etc/shells
+-'  134  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  71  0  /etc/bash.bashrc
+-'  1  0  /etc/bash.bashrc
+-'  69  0  /etc/bash.bashrc
+-'  6  64  /mnt/f/blog/themes/lightum/layout/_widget/links.ejs
+-'  4  0  /mnt/f/blog/themes/lightum/layout/_widget/links.ejs
+-'  1  0  /mnt/f/blog/themes/lightum/layout/_widget/links.ejs
+-'  4  0  /mnt/f/blog/themes/lightum/layout/_partial/after_footer.ejs
+-'  1  0  /mnt/f/blog/themes/lightum/layout/_partial/after_footer.ejs
+-'  1  0  /mnt/f/blog/themes/lightum/layout/_widget/search.ejs
+-'  3  57  /mnt/f/blog/themes/lightum/layout/_widget/search.ejs
+-'  1  0  /mnt/f/blog/themes/lightum/source/js/swiftype.js
+-'  6  2  /mnt/f/blog/themes/lightum/source/js/swiftype.js
+-'  1  1  /mnt/f/blog/themes/lightum/layout/_widget/twitter.ejs
+-'  4  84  /mnt/f/blog/themes/lightum/layout/_widget/search.ejs
+-'  14  0  /mnt/f/blog/themes/lightum/layout/_widget/twitter.ejs
+-'  13  0  /mnt/f/blog/themes/lightum/layout/_widget/twitter.ejs
+-'  10  0  /mnt/f/blog/themes/lightum/layout/_widget/twitter.ejs
+-'  7  8  /mnt/f/blog/themes/lightum/source/js/swiftype.js
+-'  1  0  /mnt/f/blog/themes
+-'  1  0  /mnt/f/blog/themes/lightum/layout/_widget/rss.ejs
+-'  1  0  /mnt/f/blog/themes/lightum/layout/layout.ejs
+-'  1  0  /mnt/f/blog/themes/lightum/layout/category.ejs
+-'  1  0  /mnt/f/blog/themes/lightum/layout/archive.ejs
+-'  179  151  /mnt/f/blog/source/_posts/MEMO-To-be-continue.md
+-'  148  18  /mnt/f/blog/source/_posts/MEMO-To-be-continue.md
+-'  158  0  /mnt/f/blog/source/_posts/MEMO-To-be-continue.md
+-'  17  0  /mnt/f/blog/source/_posts/MEMO-To-be-continue.md
+-'  11  0  /mnt/f/blog/source/_posts/MEMO-To-be-continue.md
+-'  23  0  /mnt/f/blog/source/_posts/MEMO-To-be-continue.md
+-'  178  0  /mnt/f/blog/source/_posts/MEMO-To-be-continue.md
 -'  1  0  /mnt/f/blog/source/_posts/MEMO-To-be-continue.md
--'  1  0  ~/foo.txt
--'  46  22  ~/.vimrc
--'  4  15  /mnt/f/blog/source/_posts/Unity入手笔记.md
--'  1  0  /mnt/f/blog/source/_posts/Unity入手笔记.md
--'  64  0  /mnt/f/blog/source/_posts/在教育网IPv6网络环境下设置Shadowsocks中继的-解决方案-etc.md
--'  1  0  /mnt/f/blog/source/_posts/在教育网IPv6网络环境下设置Shadowsocks中继的-解决方案-etc.md
--'  30  0  /mnt/f/blog/source/_posts/在教育网IPv6网络环境下设置Shadowsocks中继的-解决方案-etc.md
--'  22  44  /mnt/f/blog/source/_posts/在教育网IPv6网络环境下设置Shadowsocks中继的-解决方案-etc.md
--'  17  142  /mnt/f/blog/source/_posts/在教育网IPv6网络环境下设置Shadowsocks中继的-解决方案-etc.md
--'  2  24  /mnt/f/blog/source/_posts/在教育网IPv6网络环境下设置Shadowsocks中继的-解决方案-etc.md
--'  13  258  /mnt/f/blog/source/_posts/在教育网IPv6网络环境下设置Shadowsocks中继的-解决方案-etc.md
--'  42  19  /mnt/f/blog/source/_posts/在教育网IPv6网络环境下设置Shadowsocks中继的-解决方案-etc.md
--'  47  329  /mnt/f/blog/source/_posts/MEMO-To-be-continue.md
--'  72  0  /mnt/f/blog/source/_posts/在教育网IPv6网络环境下设置Shadowsocks中继的-解决方案-etc.md
--'  65  0  /mnt/f/blog/source/_posts/在教育网IPv6网络环境下设置Shadowsocks中继的-解决方案-etc.md
--'  4  18  /mnt/f/blog/source/_posts/在教育网IPv6网络环境下设置Shadowsocks中继的解决方案-etc.md
--'  1  0  /mnt/f/blog/source/_posts/在教育网IPv6网络环境下设置Shadowsocks中继的解决方案-etc.md
--'  29  0  /mnt/f/blog/source/_posts/MEMO-To-be-continue.md
--'  36  17  /mnt/f/blog/source/_posts/MEMO-To-be-continue.md
--'  65  7  /mnt/f/blog/_config.yml
--'  21  0  /mnt/f/blog/_config.yml
--'  1  0  /mnt/f/blog/_config.yml
--'  67  0  /mnt/f/blog/_config.yml
--'  41  0  /mnt/f/blog/source/_posts/android-studio-update.md
--'  1  0  /mnt/f/blog/source/_posts/android-studio-update.md
--'  1  0  /mnt/c/Users/henry/.android/key.jks
--'  1  0  /mnt/c/Users/henry/.android/keya.jks
--'  226  91  /mnt/f/blog/source/_posts/MIMIC数据库使用记录-To-be-continue.md
--'  6  0  /mnt/f/blog/source/_posts/MIMIC数据库使用记录-To-be-continue.md
--'  1  0  /mnt/f/blog/source/_posts/MIMIC数据库使用记录-To-be-continue.md
--'  15  0  /mnt/f/blog/source/_posts/postfix-dovecot搭建个人邮件服务器-Debian7.md
--'  1  0  /mnt/f/blog/source/_posts/postfix-dovecot搭建个人邮件服务器-Debian7.md
--'  28  63  /mnt/f/blog/source/_posts/postfix-dovecot搭建个人邮件服务器-Debian7.md
--'  26  121  /mnt/f/blog/source/_posts/思考与创造及其它.md
--'  1  0  /mnt/f/blog/source/_posts/思考与创造及其它.md
--'  38  0  /mnt/f/blog/source/_posts/e5-b0-8f-e6-8a-80-e5-b7-a7-ef-bc-88to-be-continue-ef-bc-89.md
--'  1  0  /mnt/f/blog/source/_posts/e5-b0-8f-e6-8a-80-e5-b7-a7-ef-bc-88to-be-continue-ef-bc-89.md
--'  1  0  /mnt/f/blog/source/_posts/e4-b8-80-e4-ba-9b-e6-9c-89-e7-94-a8-e7-9a-84linux-e5-91-bd-e4-bb-a4-ef-bc-88to-be-continue-ef-bc-89.md
--'  1  0  /mnt/f/blog/source/_posts/to-be-continue
--'  5  0  /mnt/f/blog/source/_posts/e5-b8-b8-e7-94-a8-e7-9a-84linux-e7-ab-af-e5-8f-a3to-be-continue.md
--'  1  0  /mnt/f/blog/source/_posts/e5-b8-b8-e7-94-a8-e7-9a-84linux-e7-ab-af-e5-8f-a3to-be-continue.md
--'  31  0  /mnt/f/blog/source/_posts/e4-b8-80-e4-ba-9b-e6-9c-89-e7-94-a8-e7-9a-84linux-e5-91-bd-e4-bb-a4-ef-bc-88to-be-continue-ef-bc-89.md
--'  196  47  /mnt/f/blog/source/_posts/MIMIC数据库使用记录-To-be-continue.md
--'  280  61  /mnt/f/blog/source/_posts/MIMIC数据库使用记录-To-be-continue.md
--'  137  4  /mnt/f/blog/source/_posts/MIMIC数据库使用记录-To-be-continue.md
--'  255  117  /mnt/f/blog/source/_posts/MIMIC数据库使用记录-To-be-continue.md
--'  234  195  /mnt/f/blog/source/_posts/MIMIC数据库使用记录-To-be-continue.md
--'  37  25  /mnt/f/blog/source/_posts/MIMIC数据库使用记录-To-be-continue.md
--'  36  39  /mnt/f/blog/source/_posts/MIMIC数据库使用记录-To-be-continue.md
--'  35  41  /mnt/f/blog/source/_posts/MIMIC数据库使用记录-To-be-continue.md
--'  34  30  /mnt/f/blog/source/_posts/MIMIC数据库使用记录-To-be-continue.md
--'  33  26  /mnt/f/blog/source/_posts/MIMIC数据库使用记录-To-be-continue.md
--'  29  36  /mnt/f/blog/source/_posts/MIMIC数据库使用记录-To-be-continue.md
--'  12  286  /mnt/f/blog/source/_posts/MIMIC数据库使用记录-To-be-continue.md
--'  228  2  /mnt/f/blog/source/_posts/MIMIC数据库使用记录-To-be-continue.md
--'  16  77  /mnt/f/blog/source/_posts/MIMIC数据库使用记录-To-be-continue.md
--'  109  20  /mnt/f/blog/source/_posts/MIMIC数据库使用记录-To-be-continue.md
--'  218  25  /mnt/f/blog/source/_posts/MIMIC数据库使用记录-To-be-continue.md
--'  210  0  /mnt/f/blog/source/_posts/MIMIC数据库使用记录-To-be-continue.md
--'  216  15  /mnt/f/blog/source/_posts/MIMIC数据库使用记录-To-be-continue.md
--'  214  19  /mnt/f/blog/source/_posts/MIMIC数据库使用记录-To-be-continue.md
--'  206  138  /mnt/f/blog/source/_posts/MIMIC数据库使用记录-To-be-continue.md
--'  182  281  /mnt/f/blog/source/_posts/MIMIC数据库使用记录-To-be-continue.md
--'  59  0  /mnt/f/blog/source/_posts/MIMIC数据库使用记录-To-be-continue.md
--'  17  52  /usr/local/MATLAB/R2013b/toolbox/local/pathdef.m
--'  1  0  /usr/local/MATLAB/R2013b/toolbox/local/pathdef.m
--'  71  94  /mnt/f/blog/source/_posts/MEMO-To-be-continue.md
--'  2  0  /usr/local/MATLAB/R2013b/toolbox/local/pathdef.m
--'  196  0  /usr/local/MATLAB/R2013b/toolbox/local/pathdef.m
--'  186  0  /usr/local/MATLAB/R2013b/toolbox/local/pathdef.m
--'  64  6  /mnt/f/blog/source/_posts/Java易忘知识点总结（To-Be-Continue-）.md
--'  54  67  /mnt/f/blog/source/_posts/Java易忘知识点总结（To-Be-Continue-）.md
--'  53  3  /mnt/f/blog/source/_posts/Java易忘知识点总结（To-Be-Continue-）.md
+-'  13  0  /mnt/f/blog/themes/lightum/languages/zh-CN.yml
+-'  1  0  /mnt/f/blog/themes/lightum/languages/zh-CN.yml
+-'  14  0  /mnt/f/blog/themes/lightum/_config.yml
+-'  1  0  /mnt/f/blog/themes/lightum/_config.yml
+-'  10  0  /mnt/f/blog/source/_posts/网易有道Android开发实习生准备记录.md
+-'  1  0  /mnt/f/blog/source/_posts/网易有道Android开发实习生准备记录.md
+-'  5  30  /mnt/e/study/amazon-crawler/Scrapy/asingrabber/asingrabber/spiders/searchgoodspider.py
+-'  1  0  /mnt/e/study/amazon-crawler/Scrapy/asingrabber/asingrabber/spiders/searchgoodspider.py
+-'  70  0  /etc/bash.bashrc
+-'  144  23  /mnt/f/blog/source/_posts/MEMO-To-be-continue.md
+-'  140  15  /mnt/f/blog/source/_posts/MIMIC数据预处理过程记录.md
+-'  142  1  /mnt/f/blog/source/_posts/MIMIC数据预处理过程记录.md
+-'  1  0  /mnt/f/blog/source/_posts/MIMIC数据预处理过程记录.md
+-'  1  0  /mnt/e/study/graduate/code/shell/yamlbat.sh
+-'  18  0  /mnt/e/study/graduate/code/shell/yamlbat.sh
+-'  1  0  /mnt/e/study/graduate/data/header_analysis/test.txt
+-'  117  69  /mnt/f/blog/source/_posts/MIMIC数据预处理过程记录.md
+-'  1  1  /mnt/e/study/graduate/code/matlab/preprocess/readYAML.m
+-'  761  17  /etc/privoxy/config
+-'  759  30  /etc/privoxy/config
+-'  753  26  /etc/privoxy/config
+-'  694  59  /etc/privoxy/config
+-'  685  48  /etc/privoxy/config
+-'  681  17  /etc/privoxy/config
+-'  594  8  /etc/privoxy/config
+-'  566  53  /etc/privoxy/config
+-'  558  16  /etc/privoxy/config
+-'  1  0  /etc/privoxy/config
+-'  20  0  /etc/bash.bashrc
+-'  7  40  /mnt/e/study/amazon-crawler/Scrapy/asingrabber/asingrabber/spiders/searchgoodspider.py
+-'  103  99  /mnt/f/blog/source/_posts/MIMIC数据预处理过程记录.md
+-'  101  1  /mnt/f/blog/source/_posts/MIMIC数据预处理过程记录.md
+-'  15  80  /mnt/f/blog/source/_posts/MIMIC数据预处理过程记录.md
+-'  14  2  /mnt/f/blog/source/_posts/MIMIC数据预处理过程记录.md
+-'  91  17  /mnt/f/blog/source/_posts/MIMIC数据预处理过程记录.md
+-'  93  0  /mnt/f/blog/source/_posts/MIMIC数据预处理过程记录.md
+-'  97  51  /mnt/f/blog/source/_posts/MIMIC数据预处理过程记录.md
+-'  88  106  /mnt/f/blog/source/_posts/MIMIC数据预处理过程记录.md
+-'  87  0  /mnt/f/blog/source/_posts/MIMIC数据预处理过程记录.md
+-'  45  149  /mnt/f/blog/source/_posts/MIMIC数据预处理过程记录.md
+-'  48  29  /mnt/f/blog/source/_posts/MIMIC数据预处理过程记录.md
+-'  86  157  /mnt/f/blog/source/_posts/MIMIC数据预处理过程记录.md
+-'  19  12  /mnt/f/blog/source/_posts/MIMIC数据预处理过程记录.md
+-'  83  11  /mnt/f/blog/source/_posts/MIMIC数据预处理过程记录.md
+-'  77  0  /mnt/f/blog/source/_posts/MIMIC数据预处理过程记录.md
+-'  68  0  /mnt/f/blog/source/_posts/MIMIC数据预处理过程记录.md
+-'  85  0  /mnt/e/study/graduate/data/header_analysis/a44002_0078m.yaml
+-'  54  0  /mnt/f/blog/source/_posts/MIMIC数据预处理过程记录.md
+-'  47  0  /mnt/f/blog/source/_posts/MIMIC数据预处理过程记录.md
+-'  37  101  /mnt/f/blog/source/_posts/MIMIC数据预处理过程记录.md
+-'  34  7  /mnt/f/blog/source/_posts/MIMIC数据预处理过程记录.md
+-'  28  7  /mnt/f/blog/source/_posts/MIMIC数据预处理过程记录.md
+-'  5  0  /mnt/f/blog/source/_posts/tmp
+-'  1  0  /mnt/f/blog/source/_posts/tmp
+-'  1  0  /mnt/f/blog/source/_posts/static/images/rsync.sh
+-'  37  0  /mnt/f/blog/source/_posts/static/images/rsync.sh
+-'  9  33  /mnt/f/blog/source/_posts/static/images/rsync.sh
+-'  31  0  /mnt/f/blog/source/_posts/static/images/rsync.sh
 
 # 文件内的标记历史记录 (从新到旧):
 
-> ~/.vimrc
-	"	49	34
-	^	49	35
-	.	49	34
-	+	63	43
-	+	74	25
-	+	30	0
-	+	30	21
-	+	32	0
-	+	30	4
-	+	19	1
-	+	28	1
-	+	4	5
-	+	33	30
-	+	23	1
-	+	35	31
-	+	37	28
-	+	34	21
-	+	35	6
-	+	36	6
-	+	37	29
-	+	46	23
-	+	37	29
-	+	44	0
-	+	44	0
-	+	45	0
-	+	44	0
-	+	64	0
-	+	58	0
-	+	43	0
-	+	49	34
+> ~/.bash_profile
+	"	7	0
+	^	7	42
+	.	7	0
+	+	7	40
+	+	6	0
+	+	7	0
+	+	6	26
+	+	7	41
+	+	6	0
+	+	7	0
 
-> /mnt/f/blog/source/_posts/[Vundle] Installer
-	"	17	0
+> /etc/shells
+	"	6	0
+
+> ~/.bashrc
+	"	134	0
+
+> /etc/bash.bashrc
+	"	71	0
+	^	71	1
+	.	71	0
+	+	68	2
+	+	69	40
+	+	69	19
+	+	69	38
+	+	69	39
+	+	69	0
+	+	69	0
+	+	69	0
+	+	69	37
+	+	69	0
+	+	69	39
+	+	69	0
+	+	69	39
+	+	69	0
+	+	69	39
+	+	69	0
+	+	70	0
+	+	69	0
+	+	70	0
+	+	71	0
+
+> /mnt/f/blog/themes/lightum/layout/_widget/links.ejs
+	"	6	64
+	^	6	64
+	.	6	61
+	+	8	0
+	+	3	14
+	+	4	72
+	+	4	0
+	+	4	0
+	+	7	0
+	+	7	0
+	+	7	67
+	+	7	0
+	+	7	0
+	+	3	18
+	+	5	1
+	+	6	0
+	+	7	0
+	+	6	61
+
+> /mnt/f/blog/themes/lightum/layout/_partial/after_footer.ejs
+	"	4	0
+	.	4	0
+	+	4	0
+
+> /mnt/f/blog/themes/lightum/layout/_widget/search.ejs
+	"	1	0
+	^	3	56
 	.	1	0
-	+	17	0
+	+	5	0
+	+	2	7
+	+	4	2
+	+	6	0
+	+	6	41
+	+	4	0
+	+	4	59
+	+	6	0
 	+	1	0
+	+	1	0
+	+	4	84
+	+	4	0
+	+	3	57
+	+	1	0
+
+> /mnt/f/blog/themes/lightum/source/js/swiftype.js
+	"	1	0
+	^	1	2
+	.	1	0
+	+	7	0
+	+	1	0
+	+	7	0
+	+	1	0
+
+> /mnt/f/blog/themes/lightum/layout/_widget/twitter.ejs
+	"	1	1
+	^	10	1
+	.	13	0
+	+	10	0
+	+	14	0
+	+	13	0
+
+> /mnt/f/blog/themes/lightum/layout/_widget/rss.ejs
+	"	1	0
+
+> /mnt/f/blog/themes/lightum/layout/layout.ejs
+	"	1	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	46
+	+	1	31
+	+	1	31
+	+	1	31
+	+	1	27
+	+	1	13
+	+	1	0
+	+	1	13
+	+	2	0
+	+	1	0
+	+	2	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> /mnt/f/blog/themes/lightum/layout/category.ejs
+	"	1	0
+
+> /mnt/f/blog/themes/lightum/layout/archive.ejs
+	"	1	0
 
 > /mnt/f/blog/source/_posts/MEMO-To-be-continue.md
-	"	63	111
-	^	63	114
-	.	63	114
-	+	1	71
-	+	1	202
-	+	1	201
-	+	1	58
-	+	1	72
-	+	1	76
-	+	1	111
-	+	1	141
-	+	1	201
-	+	2	0
-	+	11	122
-	+	12	47
-	+	4	5
-	+	13	72
-	+	4	1
-	+	50	79
-	+	4	1
-	+	50	32
-	+	72	0
-	+	4	0
-	+	7	73
-	+	10	0
-	+	18	18
-	+	20	38
-	+	24	109
-	+	25	114
-	+	24	109
-	+	26	118
-	+	27	237
-	+	20	0
-	+	27	0
-	+	20	0
-	+	21	11
-	+	31	146
-	+	52	22
-	+	57	244
-	+	58	33
-	+	58	34
-	+	57	239
-	+	59	63
-	+	62	160
-	+	63	71
-	+	4	1
-	+	55	30
-	+	66	148
-	+	69	55
-	+	4	14
-	+	5	0
-	+	4	19
-	+	4	0
-	+	3	0
-	+	34	42
-	+	32	41
-	+	34	2
-	+	33	3
-	+	34	5
-	+	32	40
-	+	33	26
-	+	34	41
-	+	35	179
-	+	35	67
-	+	71	94
-	+	8	0
-	+	36	26
-	+	39	0
-	+	38	43
-	+	37	40
-	+	39	177
-	+	49	182
-	+	47	298
-	+	28	321
-	+	47	448
-	+	47	357
-	+	63	114
-
-> ~/test
-	"	1	0
-
-> /usr/share/vim/vim74/doc/message.txt
-	"	421	7
-
-> ~/foo.txt
-	"	1	0
-
-> ~/[Vundle] Installer
-	"	15	0
-	.	1	0
-	+	85	0
-	+	74	0
+	"	179	151
+	^	179	152
+	.	179	151
+	+	56	24
+	+	109	0
+	+	107	9
+	+	108	104
+	+	55	28
+	+	102	2
+	+	100	10
+	+	101	142
+	+	59	192
+	+	73	0
+	+	59	341
+	+	73	0
+	+	73	4
+	+	73	5
+	+	73	0
+	+	59	338
+	+	63	3
+	+	63	2
+	+	60	0
+	+	63	0
+	+	61	45
+	+	61	45
+	+	61	93
+	+	63	0
+	+	63	2
+	+	70	5
+	+	63	26
+	+	70	75
+	+	70	142
+	+	59	329
+	+	67	0
+	+	70	0
+	+	67	36
+	+	70	0
+	+	76	198
+	+	73	0
+	+	76	189
+	+	80	0
+	+	65	82
 	+	64	0
-	+	54	0
-	+	45	0
-	+	36	0
-	+	27	0
-	+	15	0
-	+	1	0
+	+	68	33
+	+	69	0
+	+	68	31
+	+	68	31
+	+	70	32
+	+	65	83
+	+	59	345
+	+	72	4
+	+	79	0
+	+	94	0
+	+	99	0
+	+	161	0
+	+	139	0
+	+	141	0
+	+	154	0
+	+	157	0
+	+	154	0
+	+	33	0
+	+	81	203
+	+	82	156
+	+	82	68
+	+	83	75
+	+	84	95
+	+	88	3
+	+	89	86
+	+	90	0
+	+	92	0
+	+	90	28
+	+	90	31
+	+	91	75
+	+	47	36
+	+	151	0
+	+	92	0
+	+	92	0
+	+	92	0
+	+	92	0
+	+	92	0
+	+	92	68
+	+	96	155
+	+	97	2
+	+	97	0
+	+	97	0
+	+	98	0
+	+	102	2
+	+	92	16
+	+	94	0
+	+	93	1
+	+	171	0
+	+	166	0
+	+	170	0
+	+	168	14
+	+	144	28
+	+	178	2
+	+	144	23
+	+	178	130
+	+	145	30
+	+	146	0
+	+	16	0
+	+	148	18
+	+	179	151
 
-> /mnt/f/blog/source/_posts/Unity入手笔记.md
-	"	4	15
-	^	4	18
-	.	4	15
-	+	3	11
-	+	4	15
-
-> /mnt/f/blog/source/_posts/在教育网IPv6网络环境下设置Shadowsocks中继的-解决方案-etc.md
-	"	64	0
-	^	64	0
-	.	37	0
-	+	4	19
-	+	1	34
-	+	28	269
-	+	30	199
-	+	35	165
-	+	32	180
-	+	38	0
-	+	37	76
-	+	42	4
-	+	39	127
-	+	40	20
-	+	41	135
-	+	41	4
-	+	42	23
-	+	46	0
-	+	65	60
-	+	58	17
-	+	59	18
-	+	62	67
-	+	64	96
-	+	9	169
-	+	11	187
-	+	13	108
-	+	11	125
-	+	13	208
-	+	17	133
-	+	20	43
-	+	22	28
-	+	21	36
-	+	20	49
-	+	22	61
-	+	47	0
-	+	68	48
-	+	69	153
-	+	72	0
-	+	69	153
-	+	71	0
-	+	72	1
-	+	40	17
-	+	42	19
-	+	11	17
+> /mnt/f/blog/themes/lightum/languages/zh-CN.yml
+	"	13	0
+	^	13	1
+	.	13	0
+	+	12	0
+	+	13	17
+	+	14	8
 	+	13	0
-	+	13	258
-	+	1	42
-	+	17	141
-	+	22	44
-	+	30	0
-	+	35	0
-	+	37	0
 
-> /mnt/f/blog/source/_posts/在教育网IPv6网络环境下设置Shadowsocks中继的解决方案-etc.md
-	"	4	18
-	^	4	19
-	.	4	19
-	+	3	5
-	+	4	19
-	+	3	16
-	+	8	57
-	+	4	19
+> /mnt/f/blog/themes/lightum/_config.yml
+	"	14	0
+	^	10	5
+	.	14	0
+	+	16	7
+	+	16	0
+	+	10	4
+	+	16	0
+	+	14	0
+
+> /mnt/f/blog/source/_posts/网易有道Android开发实习生准备记录.md
+	"	10	0
+	^	8	7
+	.	8	6
+	+	7	19
+	+	9	3
+	+	8	6
+
+> /mnt/e/study/amazon-crawler/Scrapy/asingrabber/asingrabber/spiders/searchgoodspider.py
+	"	5	30
+	^	5	31
+	.	5	30
+	+	4	16
+	+	5	34
+	+	6	219
+	+	6	0
+	+	9	0
+	+	10	0
+	+	11	0
+	+	6	4
+	+	7	40
+	+	5	30
+
+> /mnt/f/blog/source/_posts/MIMIC数据预处理过程记录.md
+	"	140	15
+	^	140	18
+	.	140	15
+	+	40	0
+	+	44	1
+	+	45	150
+	+	45	0
+	+	47	10
+	+	68	4
+	+	81	0
+	+	81	1
+	+	87	78
+	+	18	0
+	+	22	11
+	+	87	311
+	+	88	0
+	+	101	41
+	+	88	110
+	+	90	0
+	+	101	41
+	+	90	0
+	+	101	41
+	+	81	0
+	+	90	0
+	+	93	0
+	+	91	15
+	+	15	80
+	+	91	33
+	+	15	80
+	+	106	320
+	+	107	0
+	+	110	0
+	+	108	33
+	+	110	69
+	+	97	0
+	+	91	0
+	+	91	0
+	+	91	0
+	+	110	99
+	+	89	348
+	+	111	0
+	+	142	1
+	+	111	31
+	+	117	72
+	+	91	0
+	+	101	0
+	+	99	0
+	+	101	0
+	+	103	0
+	+	106	0
+	+	103	0
+	+	105	0
+	+	103	0
+	+	99	0
+	+	103	12
+	+	104	17
+	+	103	17
+	+	111	31
+	+	112	47
+	+	113	163
+	+	117	68
+	+	142	1
+	+	117	315
+	+	121	4
+	+	120	94
+	+	121	5
+	+	120	80
+	+	122	51
+	+	123	57
+	+	127	0
+	+	142	1
+	+	128	41
+	+	131	18
+	+	130	0
+	+	132	58
+	+	142	1
+	+	134	64
+	+	135	0
+	+	137	0
+	+	135	32
+	+	135	30
+	+	137	0
+	+	135	31
+	+	137	48
+	+	136	0
+	+	138	127
+	+	138	51
+	+	142	1
+	+	142	1
+	+	142	1
+	+	142	1
+	+	142	1
+	+	142	1
+	+	142	1
+	+	142	1
+	+	142	1
+	+	142	1
+	+	142	1
+	+	143	0
+	+	138	361
+	+	142	0
+	+	138	412
+	+	140	15
+
+> /mnt/f/blog/themes/lightum/languages/default.yml
+	"	13	16
+	^	13	17
+	.	14	0
+	+	13	16
+	+	14	0
+
+> /mnt/f/blog/themes/lightum/languages/zh-TW.yml
+	"	1	0
+
+> /mnt/f/blog/themes/lightum/source/js/toc.js
+	"	34	4
+	^	34	5
+	.	34	0
+	+	34	0
+
+> /mnt/f/blog/themes/lightum/layout/_widget/toc.ejs
+	"	6	18
+	^	6	19
+	.	6	0
+	+	6	0
+
+> /mnt/f/blog/themes/lightum/source/css/style.styl
+	"	15	21
+	^	15	22
+	.	15	21
+	+	15	21
+
+> /mnt/f/blog/themes/lightum/source/css/_partial/article.styl
+	"	333	0
+	.	335	0
+	+	335	0
+
+> /mnt/f/blog/themes/lightum/source/css/_partial/toc.style
+	"	1	6
+	^	3	14
+	.	3	13
+	+	1	0
+	+	3	13
+
+> /mnt/e/study/graduate/code/shell/yamlbat.sh
+	"	1	0
+	^	1	11
+	.	1	10
+	+	1	23
+	+	17	4
+	+	1	10
 
 > /mnt/f/blog/_config.yml
-	"	65	7
-	^	65	22
-	.	65	7
+	"	10	14
+	^	10	15
+	.	10	14
 	+	1	3
 	+	1	29
 	+	1	28
@@ -441,20 +655,20 @@ $record_name
 	+	1	0
 	+	1	0
 	+	13	0
-	+	95	0
-	+	95	0
+	+	96	0
+	+	96	0
 	+	3	0
 	+	1	0
 	+	11	0
-	+	95	0
+	+	96	0
 	+	11	0
 	+	40	14
 	+	11	0
 	+	71	3
 	+	72	58
 	+	73	17
-	+	95	4
-	+	94	21
+	+	96	4
+	+	95	21
 	+	65	0
 	+	65	32
 	+	31	0
@@ -466,39 +680,354 @@ $record_name
 	+	10	9
 	+	17	11
 	+	31	15
-	+	95	0
+	+	96	0
 	+	65	16
 	+	42	17
 	+	43	0
-	+	94	21
+	+	95	21
 	+	65	11
 	+	10	16
 	+	65	7
+	+	37	22
+	+	99	8
+	+	129	14
+	+	99	0
+	+	88	21
+	+	89	4
+	+	117	53
+	+	118	53
+	+	116	26
+	+	120	2
+	+	119	13
+	+	120	13
+	+	121	13
+	+	119	13
+	+	121	13
+	+	89	7
+	+	120	19
+	+	119	19
+	+	89	21
+	+	89	0
+	+	87	0
+	+	86	0
+	+	119	13
+	+	37	23
+	+	7	10
+	+	119	13
+	+	86	0
+	+	113	1
+	+	10	14
 
-> /mnt/f/blog/source/_posts/android-studio-update.md
-	"	41	0
-	^	41	0
-	.	40	9
-	+	31	171
-	+	31	0
-	+	32	41
-	+	32	145
-	+	32	173
-	+	33	26
-	+	37	28
-	+	35	39
-	+	38	99
-	+	39	85
-	+	40	9
+> ~/.vim/UltiSnips/ejs.snippets
+	"	2	34
+	^	2	35
+	.	2	34
+	+	1	24
+	+	1	24
+	+	2	0
+	+	3	9
+	+	2	34
 
-> /mnt/c/Users/henry/.android/key.jks
+> ~/.vim/UltiSnips/mkd.snippets
+	"	1	0
+	^	14	117
+	.	14	118
+	+	8	33
+	+	8	10
+	+	8	28
+	+	20	69
+	+	22	9
+	+	8	0
+	+	22	10
+	+	23	0
+	+	24	30
+	+	25	23
+	+	34	10
+	+	29	27
+	+	30	11
+	+	32	16
+	+	19	12
+	+	12	0
+	+	13	35
+	+	14	118
+
+> /mnt/f/blog/source/_posts/e5-b0-8f-e6-8a-80-e5-b7-a7-ef-bc-88to-be-continue-ef-bc-89.md
+	"	49	21
+	^	49	24
+	.	49	21
+	+	68	13
+	+	36	1
+	+	38	2
+	+	44	5
+	+	46	26
+	+	47	0
+	+	46	15
+	+	48	0
+	+	51	0
+	+	49	0
+	+	50	0
+	+	49	21
+
+> /mnt/f/blog/source/_posts/5-b0-8f-e6-8a-80-e5-b7-a7-ef-bc-88to-be-continue-ef-bc-89.md
 	"	1	0
 
-> /mnt/c/Users/henry/.android/keya.jks
+> /mnt/e/study/graduate/data/header_analysis/test.txt
 	"	1	0
+
+> /mnt/e/study/graduate/data/header_analysis/a44002_0078m.yaml
+	"	101	1
+	^	1	0
+	.	13	0
+	+	1	0
+	+	5	0
+	+	13	0
+
+> /mnt/e/study/graduate/code/matlab/preprocess/readYAML.m
+	"	1	1
+	.	1	1
+	+	1	1
+
+> /etc/privoxy/config
+	"	761	17
+	^	761	21
+	.	2075	0
+	+	1314	54
+	+	753	0
+	+	761	20
+	+	2075	0
+
+> /mnt/e/study/amazon-crawler/Scrapy/asingrabber/asingrabber/items.py
+	"	13	26
+
+> /mnt/f/blog/source/_drafts/雪场前台一日.md
+	"	6	1
+	.	6	0
+	+	6	0
+
+> /mnt/f/blog/source/drafts
+	"	1	0
+
+> /mnt/f/blog/source/_posts/e4-b8-80-e4-ba-9b-e6-9c-89-e7-94-a8-e7-9a-84linux-e5-91-bd-e4-bb-a4-ef-bc-88to-be-continue-ef-bc-89.md
+	"	33	16
+	^	6	1
+	.	31	69
+	+	29	64
+	+	30	39
+	+	31	69
+
+> ~/.vim/bundle/vim-table-mode/doc/table-mode.txt
+	"	70	4
+
+> ~/.vimrc
+	"	82	6
+	^	87	37
+	.	87	36
+	+	64	43
+	+	92	25
+	+	30	0
+	+	30	21
+	+	32	0
+	+	30	4
+	+	19	1
+	+	28	1
+	+	4	5
+	+	33	30
+	+	23	1
+	+	37	31
+	+	39	28
+	+	36	21
+	+	37	6
+	+	38	6
+	+	39	29
+	+	47	23
+	+	39	29
+	+	45	0
+	+	45	0
+	+	46	0
+	+	45	0
+	+	65	0
+	+	59	0
+	+	45	0
+	+	50	34
+	+	81	54
+	+	84	32
+	+	66	0
+	+	78	46
+	+	78	0
+	+	78	0
+	+	78	0
+	+	92	19
+	+	78	0
+	+	76	2
+	+	78	0
+	+	77	0
+	+	76	2
+	+	76	47
+	+	76	1
+	+	77	0
+	+	77	0
+	+	77	0
+	+	77	0
+	+	77	0
+	+	77	0
+	+	77	0
+	+	70	53
+	+	70	0
+	+	66	53
+	+	69	45
+	+	70	0
+	+	74	0
+	+	86	26
+	+	36	0
+	+	34	0
+	+	36	0
+	+	90	31
+	+	45	0
+	+	87	36
+	a	78	0
+
+> /usr/local/MATLAB/R2013b/toolbox/local/pathdef.m
+	"	17	31
+	^	17	32
+	.	17	31
+	+	1	20
+	+	17	32
+	+	17	31
+
+> /mnt/e/study/graduate/data/header_analysis/a44002_0078m.hea
+	"	1	0
+
+> /mnt/e/study/graduate/data/header_analysis/a44002_0078m .mat
+	"	1	0
+
+> /mnt/e/study/graduate/data/header_analysis/a44002_0078m .hea
+	"	1	0
+
+> /mnt/e/study/graduate/data/header_analysis/a44002_0078m .hea
+	"	1	0
+
+> /mnt/e/study/graduate/data/header_analysis/ a44002_0078m .hea
+	"	1	0
+
+> /mnt/f/blog/source/_posts/static/images/rsync.sh
+	"	31	0
+	^	9	34
+	.	9	33
+	+	69	39
+	+	37	0
+	+	7	0
+	+	5	33
+	+	11	0
+	+	9	13
+	+	11	0
+	+	9	38
+	+	10	15
+	+	13	0
+	+	11	29
+	+	12	0
+	+	13	39
+	+	14	0
+	+	32	0
+	+	31	11
+	+	15	15
+	+	31	3
+	+	29	145
+	+	9	33
+
+> /mnt/f/blog/source/_posts/tmp
+	"	5	0
+	.	4	0
+	+	4	0
+
+> /mnt/f/blog/source/_posts/IPv6网络下hexo-qiniu-sync插件的替代方案：rsync-inotify-qrboxcli.md
+	"	29	1
+	^	29	2
+	.	29	0
+	+	7	15
+	+	41	8
+	+	81	2
+	+	8	0
+	+	81	11
+	+	13	149
+	+	13	17
+	+	13	236
+	+	20	166
+	+	22	380
+	+	31	156
+	+	33	80
+	+	34	102
+	+	35	2
+	+	37	0
+	+	40	0
+	+	41	0
+	+	40	110
+	+	41	0
+	+	43	182
+	+	43	0
+	+	80	0
+	+	81	0
+	+	48	55
+	+	50	46
+	+	54	4
+	+	53	24
+	+	55	84
+	+	55	0
+	+	59	4
+	+	58	22
+	+	63	2
+	+	64	213
+	+	69	81
+	+	67	89
+	+	71	158
+	+	74	42
+	+	79	43
+	+	76	29
+	+	73	10
+	+	76	41
+	+	79	43
+	+	76	128
+	+	79	41
+	+	76	135
+	+	76	93
+	+	77	2
+	+	79	2
+	+	77	0
+	+	78	0
+	+	77	32
+	+	78	0
+	+	79	37
+	+	80	0
+	+	83	0
+	+	86	0
+	+	85	33
+	+	82	72
+	+	85	0
+	+	83	0
+	+	84	6
+	+	85	25
+	+	85	0
+	+	86	0
+	+	89	0
+	+	85	10
+	+	87	19
+	+	92	0
+	+	94	18
+	+	93	15
+	+	94	18
+	+	95	0
+	+	91	0
+	+	13	207
+	+	7	11
+	+	7	11
+	+	7	11
+	+	4	0
+	+	5	0
+	+	6	0
+	+	28	0
+	+	29	0
 
 > /mnt/f/blog/source/_posts/MIMIC数据库使用记录-To-be-continue.md
-	"	226	91
+	"	47	3
 	^	226	94
 	.	226	91
 	+	135	151
@@ -602,1208 +1131,475 @@ $record_name
 	+	224	356
 	+	226	91
 
-> /mnt/f/blog/source/_posts/postfix-dovecot搭建个人邮件服务器-Debian7.md
-	"	15	0
-	^	15	0
-	.	15	0
-	+	4	15
-	+	8	11
-	+	5	0
-	+	10	353
-	+	10	601
-	+	15	206
-	+	23	18
-	+	28	63
-	+	13	0
-	+	15	0
-
-> /mnt/f/blog/source/_posts/思考与创造及其它.md
-	"	26	121
-	^	26	124
-	.	26	124
-	+	3	12
-	+	4	20
-	+	8	175
-	+	21	380
-	+	25	555
-	+	26	124
-
-> /mnt/f/blog/source/_posts/e5-b0-8f-e6-8a-80-e5-b7-a7-ef-bc-88to-be-continue-ef-bc-89.md
-	"	38	0
-	^	54	0
-	.	57	13
-	+	57	13
-
-> /mnt/f/blog/source/_posts/e4-b8-80-e4-ba-9b-e6-9c-89-e7-94-a8-e7-9a-84linux-e5-91-bd-e4-bb-a4-ef-bc-88to-be-continue-ef-bc-89.md
+> ~/mkd.snippets
 	"	1	0
-	^	6	1
-	.	31	69
-	+	29	64
-	+	30	39
-	+	31	69
+	^	1	24
+	.	1	23
+	+	4	10
+	+	1	23
 
-> /mnt/f/blog/source/_posts/to-be-continue
+> /etc/rc.local
 	"	1	0
 
-> /mnt/f/blog/source/_posts/e5-b8-b8-e7-94-a8-e7-9a-84linux-e7-ab-af-e5-8f-a3to-be-continue.md
-	"	5	0
-	^	6	1
-	.	15	0
-	+	15	0
+> ./home/henryalps/image/rsync.sh
+	"	1	0
 
-> /mnt/f/blog/themes/next/_config.yml
-	"	40	0
-	^	40	0
-	.	40	0
-	+	40	0
-
-> /mnt/f/blog/themes/landscape-plus/source/css/_partial/highlight.styl
-	"	93	19
-	^	23	20
-	.	23	19
-	+	17	36
-	+	18	13
-	+	23	19
-
-> /mnt/f/blog/themes/landscape-plus/source/css/_partial/article.styl
-	"	84	19
-	^	84	20
-	.	84	19
-	+	63	15
-	+	82	19
-	+	83	28
-	+	84	19
-
-> /mnt/f/blog/themes/landscape-plus/source/js/script.js
-	"	8	0
-
-> /mnt/f/blog/themes/landscape-plus/source/css/_variables.styl
-	"	35	22
-	^	35	23
-	.	35	22
+> /mnt/f/blog/source/_posts/在教育网IPv6网络环境下设置Shadowsocks中继的-解决方案-etc.md
+	"	17	0
+	^	64	0
+	.	37	0
+	+	4	19
+	+	1	34
+	+	28	269
+	+	30	199
+	+	35	165
+	+	32	180
+	+	38	0
+	+	37	76
+	+	42	4
+	+	39	127
 	+	40	20
-	+	46	15
-	+	49	15
-	+	29	102
-	+	30	0
-	+	33	13
-	+	35	22
-
-> /mnt/f/blog/themes/landscape-plus/layout/_partial/header.ejs
-	"	4	4
-
-> /mnt/f/blog/source/_posts/Java易忘知识点总结（To-Be-Continue-）.md
-	"	41	16
-	^	41	17
-	.	41	16
-	+	3	5
-	+	4	11
-	+	3	9
-	+	4	15
-	+	8	0
-	+	7	2
-	+	8	240
-	+	8	93
-	+	8	258
-	+	9	63
-	+	40	0
-	+	10	14
-	+	44	29
-	+	43	35
-	+	48	130
-	+	10	14
-	+	42	17
-	+	48	0
-	+	49	63
-	+	52	0
-	+	51	1
-	+	52	167
-	+	52	0
-	+	55	4
-	+	54	73
-	+	56	94
-	+	63	17
-	+	62	21
-	+	64	6
-	+	10	6
-	+	42	0
-	+	42	2
-	+	10	24
-	+	42	0
-	+	41	16
-
-> /usr/local/MATLAB/R2013b/toolbox/local/pathdef.m
-	"	17	52
-	^	17	58
-	.	17	52
-	+	1	20
-	+	17	52
-
-> ~/workspace/Physionet_workspace/RemoveDownloadedFiles.java
-	"	1	11
-	.	48	0
-	+	92	0
-	+	9	36
-	+	44	5
-	+	91	3
-	+	88	12
-	+	88	24
-	+	45	0
-	+	15	0
-	+	18	0
-	+	19	2
-	+	16	34
-	+	18	0
-	+	17	15
-	+	13	3
-	+	12	8
-	+	14	4
-	+	11	20
-	+	17	16
-	+	23	0
-	+	21	4
-	+	22	0
-	+	45	0
-	+	85	1
-	+	16	37
-	+	85	35
-	+	86	27
-	+	88	0
-	+	90	25
-	+	82	0
-	+	81	0
-	+	80	11
-	+	73	25
-	+	46	99
-	+	48	13
-	+	47	22
-	+	48	26
-	+	61	0
-	+	52	76
-	+	60	64
-	+	74	6
-	+	15	16
-	+	16	17
-	+	17	17
-	+	19	18
-	+	74	5
+	+	41	135
+	+	41	4
+	+	42	23
+	+	46	0
+	+	65	60
+	+	58	17
+	+	59	18
+	+	62	67
+	+	64	96
+	+	9	169
+	+	11	187
+	+	13	108
+	+	11	125
+	+	13	208
+	+	17	133
+	+	20	43
+	+	22	28
+	+	21	36
+	+	20	49
+	+	22	61
+	+	47	0
+	+	68	48
+	+	69	153
+	+	72	0
+	+	69	153
 	+	71	0
-	+	89	25
-	+	91	0
-	+	84	3
-	+	83	0
-	+	71	0
+	+	72	1
+	+	40	17
+	+	42	19
 	+	11	17
-	+	77	0
-	+	77	7
-	+	63	48
-	+	69	0
-	+	65	0
-	+	10	38
-	+	67	11
-	+	74	9
-	+	77	6
-	+	77	0
-	+	76	0
-	+	75	24
-	+	79	36
-	+	89	0
-	+	87	0
-	+	88	25
-	+	85	36
-	+	74	28
-	+	20	21
-	+	57	0
-	+	56	41
-	+	60	63
-	+	7	24
-	+	8	25
-	+	65	52
-	+	78	10
-	+	73	10
-	+	63	48
-	+	64	8
-	+	65	0
-	+	68	26
-	+	34	0
-	+	33	0
-	+	34	0
-	+	33	32
-	+	87	20
-	+	90	17
-	+	66	10
-	+	75	6
-	+	65	59
-	+	48	5
-	+	48	0
-
-> ~/workspace/Physionet_workspace/names.txt
-	"	2	0
-	^	2	0
-	.	1	16
-	+	1	16
-
-> ~/workspace/Physionet_workspace/removeDownloadedFiles.java
-	"	1	0
-
-> ~/workspace/C_workspace/C_test_analysis.md
-	"	118	0
-	^	105	0
-	.	105	0
-	+	194	29
-	+	7	36
-	+	9	15
-	+	34	17
-	+	13	17
-	+	14	11
-	+	13	15
-	+	18	80
-	+	23	0
-	+	21	5
-	+	18	81
-	+	33	0
-	+	36	8
-	+	50	29
-	+	49	69
-	+	51	66
-	+	67	20
-	+	68	8
-	+	83	0
-	+	79	0
-	+	78	6
-	+	82	21
-	+	194	0
-	+	88	32
-	+	93	0
-	+	92	0
-	+	91	6
-	+	92	1
-	+	93	14
-	+	100	34
-	+	104	44
-	+	171	17
-	+	143	15
-	+	171	0
-	+	175	15
-	+	187	17
-	+	176	45
-	+	178	4
-	+	177	5
-	+	179	1
-	+	178	13
-	+	185	0
-	+	183	0
-	+	182	12
-	+	184	12
-	+	186	11
-	+	193	47
-	+	50	54
-	+	141	78
-	+	142	132
-	+	146	18
-	+	175	0
-	+	146	19
-	+	170	0
-	+	37	176
-	+	105	19
-	+	138	21
-	+	107	19
-	+	138	0
-	+	107	0
-	+	130	3
-	+	111	3
-	+	138	0
-	+	105	0
-
-> ~/workspace/Physionet_workspace/urls.txt
-	"	1	0
-
-> /media/henryalps/Ubuntu 14.0/Biofeedback/说明.txt
-	"	3	134
-	^	3	137
-	.	3	134
-	+	2	119
-	+	3	134
-
-> ~/workspace/C_workspace/main.cpp
-	"	27	9
-	^	27	9
-	.	27	9
-	+	1	0
-	+	46	0
-	+	1	0
-	+	1	9
-	+	1	0
-	+	46	0
-	+	45	0
-	+	45	15
-	+	45	8
-	+	46	0
-	+	45	22
-	+	45	1
-	+	46	0
-	+	45	0
-	+	45	0
-	+	46	0
-	+	46	0
-	+	45	0
-	+	43	0
-	+	31	0
-	+	8	0
-	+	32	36
-	+	37	0
-	+	8	22
-	+	16	48
-	+	29	0
-	+	22	0
-	+	19	29
-	+	21	22
-	+	28	0
-	+	23	3
-	+	16	0
-	+	8	22
-	+	10	0
-	+	10	0
-	+	10	0
-	+	10	0
-	+	10	0
-	+	9	0
-	+	11	1
-	+	9	0
-	+	12	23
-	+	15	0
-	+	22	0
-	+	29	2
-	+	31	0
-	+	31	0
-	+	30	14
-	+	23	31
-	+	27	22
-	+	29	0
-	+	31	0
-	+	33	37
-	+	34	41
-	+	37	0
-	+	35	1
-	+	44	18
-	+	35	2
-	+	36	9
-	+	42	16
-	+	43	9
-	+	44	7
-	+	2	19
-	+	3	18
-	+	33	0
-	+	21	8
-	+	25	8
-	+	27	9
-
-> ~/workspace/C_workspace/main.cp
-	"	9	0
-	^	8	12
-	.	8	12
-	+	10	0
-	+	8	12
-
-> ~/workspace/Java_workspace/pow.java
-	"	6	18
-	^	6	19
-	.	6	18
-	+	9	9
-	+	6	12
-	+	9	22
 	+	13	0
-	+	9	6
-	+	6	32
-	+	7	28
-	+	9	18
-	+	7	4
-	+	9	15
-	+	8	10
-	+	9	0
-	+	8	3
-	+	2	40
-	+	5	24
-	+	4	26
-	+	6	18
+	+	13	258
+	+	1	42
+	+	17	141
+	+	22	44
+	+	30	0
+	+	35	0
+	+	37	0
 
-> ~/文档/Resume/resume.complete.html
-	"	1	0
-	^	23	50
-	.	23	47
-	+	6	22
-	+	23	47
+> /mnt/f/blog/source/_posts/Unity入手笔记.md
+	"	7	0
+	^	7	144
+	.	7	0
+	+	3	11
+	+	5	15
+	+	4	15
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	33
+	+	9	29
+	+	9	33
+	+	9	9
+	+	9	0
+	+	9	34
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	1
+	+	7	0
+	+	9	0
+	+	7	0
+	+	7	0
+	+	7	54
+	+	7	0
+	+	7	0
+	+	7	20
+	+	7	9
+	+	7	0
+	+	7	0
+	+	9	0
+	+	7	34
+	+	7	0
+	+	7	0
+	+	7	39
+	+	7	0
+	+	7	0
+	+	7	0
+	+	7	0
+	+	7	0
+	+	7	39
+	+	7	0
+	+	7	0
+	+	7	95
+	+	7	0
+	+	7	0
+	+	7	0
+	+	8	0
+	+	7	0
+	+	8	0
+	+	7	143
+	+	7	0
 
 > /etc/tsocks.conf
-	"	4	16
+	"	1	0
 	^	4	17
 	.	4	16
 	+	4	16
 
-> /mnt/f/blog/source/_posts/android开发与泛型及其它.md
-	"	3	0
-	^	3	1
-	.	3	6
-	+	3	12
-	+	4	3
-	+	29	0
-	+	30	0
-	+	5	0
-	+	6	0
-	+	29	0
-	+	27	42
-	+	3	12
-	+	6	28
-	+	8	1
-	+	8	136
-	+	10	0
-	+	12	0
-	+	14	0
-	+	16	0
-	+	14	0
-	+	3	6
-
-> /mnt/f/blog/source/_posts/leetcode-summaries-To-Be-Continue.md
-	"	104	0
-	^	3	1
-	.	401	0
-	+	8	14
-	+	35	17
-	+	38	4
-	+	39	4
-	+	40	4
-	+	46	4
-	+	45	14
-	+	46	0
-	+	66	0
-	+	63	0
-	+	62	0
-	+	61	0
-	+	64	16
-	+	67	4
-	+	68	4
-	+	42	10
-	+	424	0
-	+	424	23
-	+	424	0
-	+	424	0
-	+	424	0
-	+	424	15
-	+	424	100
-	+	424	44
-	+	424	12
-	+	424	18
-	+	424	0
-	+	424	0
-	+	69	0
-	+	112	0
-	+	175	1
-	+	166	2
-	+	175	0
-	+	172	63
-	+	173	50
-	+	170	75
-	+	174	71
-	+	117	2
-	+	166	0
-	+	120	15
-	+	165	18
-	+	175	37
-	+	175	0
-	+	178	14
-	+	210	18
-	+	44	0
-	+	70	0
-	+	119	0
-	+	131	0
-	+	136	0
-	+	176	0
-	+	174	50
-	+	177	1
-	+	179	0
-	+	181	0
-	+	182	0
-	+	183	0
-	+	184	0
-	+	185	0
-	+	186	0
-	+	187	0
-	+	3	0
-	+	211	0
-	+	307	33
-	+	308	97
-	+	3	0
-	+	310	28
-	+	267	15
-	+	215	17
-	+	266	1
-	+	214	14
-	+	304	0
-	+	262	0
-	+	302	0
-	+	312	33
-	+	423	6
-	+	316	0
-	+	120	14
-	+	165	17
-	+	178	14
-	+	210	17
-	+	214	14
-	+	303	17
-	+	423	17
-	+	317	3
-	+	420	0
-	+	423	6
-	+	423	148
-	+	3	0
-	+	423	6
-	+	423	6
-	+	423	6
-	+	423	20
-	+	423	0
-	+	422	0
-	+	421	17
-	+	3	0
-	+	415	0
-	+	408	0
-	+	401	0
-
-> ~/workspace/Java_workspace/Solution.java
-	"	12	20
-	^	15	22
-	.	15	21
-	+	27	0
-	+	12	51
-	+	13	0
-	+	27	0
-	+	13	1
-	+	27	0
-	+	14	0
-	+	1	0
-	+	1	22
-	+	1	17
-	+	27	36
-	+	12	48
-	+	27	0
-	+	1	0
-	+	27	17
-	+	27	0
-	+	27	1
-	+	12	49
-	+	5	21
-	+	12	47
-	+	5	16
-	+	27	0
-	+	14	0
-	+	13	1
-	+	14	4
-	+	14	0
-	+	14	0
-	+	2	0
-	+	8	0
-	+	3	32
-	+	6	29
-	+	4	21
-	+	9	25
-	+	12	0
-	+	12	0
-	+	10	32
-	+	9	10
-	+	10	25
-	+	3	21
-	+	27	0
-	+	14	0
-	+	8	0
-	+	9	0
-	+	14	12
-	+	11	18
-	+	7	18
-	+	9	14
-	+	10	20
-	+	12	15
-	+	14	35
-	+	15	21
-	m	10	0
-
-> /mnt/f/blog/source/_posts/new
+> /mnt/f/blog/source/_posts/static/images/autorun.sh
 	"	1	0
-	^	3	30
-	.	3	0
-	+	1	100
-	+	1	58
+	^	1	0
+	.	3	42
+	+	5	0
+	+	2	23
+	+	2	39
+	+	3	41
+	+	4	43
+	+	5	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	1	0
+	+	2	0
+	+	1	54
+	+	2	41
+	+	3	42
+
+> /mnt/f/blog/source/_posts/static/images/qiniu-autosync.sh
+	"	1	0
+
+> /mnt/f/blog/source/_posts/static/images/appkey.json
+	"	3	59
+	^	3	59
+	.	3	59
+	+	4	0
+	+	2	0
 	+	3	0
+	+	2	58
+	+	3	59
+
+> /mnt/f/blog/node_modules/hexo-qiniu-sync/node_modules/node-qiniu/lib/utils.js
+	"	33	3
+	^	32	21
+	.	32	20
+	+	3	34
+	+	7	38
+	+	7	33
+	+	7	20
+	+	29	37
+	+	37	0
+	+	30	0
+	+	37	1
+	+	35	0
+	+	35	26
+	+	37	2
+	+	37	0
+	+	36	16
+	+	30	38
+	+	30	40
+	+	30	35
+	+	30	22
+	+	35	23
+	+	35	0
+	+	34	14
+	+	39	0
+	+	39	0
+	+	40	1
+	+	39	2
+	+	12	0
+	+	39	0
+	+	39	0
+	+	39	0
+	+	39	3
+	+	39	16
+	+	39	0
+	+	40	0
+	+	28	0
+	+	22	0
+	+	23	0
+	+	27	1
+	+	39	0
+	+	30	0
+	+	34	14
+	+	34	25
+	+	37	0
+	+	31	5
+	+	8	0
+	+	31	6
+	+	34	1
+	+	33	12
+	+	32	20
+
+> /mnt/f/blog/node_modules/hexo-qiniu-sync/node_modules/node-qiniu/lib/bucket.js
+	"	139	12
+	^	205	54
+	.	205	53
+	+	1	34
+	+	16	38
+	+	15	33
+	+	16	20
+	+	1	0
+	+	87	25
+	+	1	0
+	+	12	35
+	+	87	0
+	+	88	0
+	+	87	54
+	+	139	54
+	+	180	52
+	+	205	53
+
+> /mnt/f/blog/node_modules/hexo-qiniu-sync/node_modules/node-qiniu/lib/batch.js
+	"	91	4
+	.	91	0
+	+	91	0
+
+> /mnt/f/blog/node_modules/hexo-qiniu-sync/node_modules/node-qiniu/lib/asset.js
+	"	243	2
+	.	243	0
+	+	82	47
+	+	274	47
+	+	344	0
+	+	274	47
+	+	344	0
+	+	274	0
+	+	344	47
+	+	124	27
+	+	165	27
+	+	205	26
+	+	243	26
+	+	117	40
+	+	117	35
+	+	125	0
+	+	124	0
+	+	118	0
+	+	124	0
+	+	165	0
+	+	205	0
+	+	243	0
+
+> /mnt/f/blog/node_modules/hexo-qiniu-sync/node_modules/node-qiniu/lib/token.js
+	"	92	4
+
+> /mnt/f/blog/node_modules/hexo-qiniu-sync/node_modules/node-qiniu/lib/image.js
+	"	1	4
+	^	221	48
+	.	221	47
+	+	45	34
+	+	75	34
+	+	127	47
+	+	172	47
+	+	221	47
+
+> /mnt/f/blog/node_modules/hexo-qiniu-sync/node_modules/node-qiniu/lib/fop.js
+	"	1	4
+	^	246	48
+	.	246	47
+	+	228	34
+	+	246	47
+
+> /mnt/f/blog/node_modules/hexo-qiniu-sync/node_modules/node-qiniu/lib/qiniu.js
+	"	1	0
+
+> /mnt/e/study/毕业/资料/随机森林/其它/简介.md
+	"	23	144
+	^	23	147
+	.	29	750
+	+	29	750
+
+> /mnt/e/study/毕业/资料/随机森林/其它/简介.vim
+	"	1	0
+
+> /mnt/f/blog/node_modules/hexo-qiniu-sync/sync.js
+	"	61	16
+
+> /mnt/f/blog/node_modules/hexo-qiniu-sync/node_modules/node-qiniu/index.js
+	"	1	0
+
+> /mnt/f/blog/node_modules/hexo-qiniu-sync/node_modules/node-qiniu/node_modules/request/request.js
+	"	129	0
 
 > /mnt/f/blog/source/_posts/Gitlab-Redmine-Jenkins折腾.md
-	"	5	0
-	^	4	18
-	.	4	15
+	"	39	47
+	^	39	48
+	.	39	47
 	+	3	5
 	+	5	0
 	+	3	5
 	+	4	15
-
-> /mnt/f/blog/source/_posts/Random-Forest-Notes.md
-	"	6	0
-	^	5	12
-	.	6	0
-	+	3	12
-	+	7	0
-	+	4	8
-	+	4	8
-	+	7	0
-	+	10	0
-	+	8	3
-	+	4	8
-	+	5	12
-	+	6	0
-
-> /mnt/f/blog/source/_posts/matlab-ubuntu-e7-bc-96-e7-a0-81-e9-97-ae-e9-a2-98.md
-	"	4	0
-	.	7	0
-	+	7	0
-
-> ~/图片/照片/怀柔风景集锦/雁栖湖照片/README.md
-	"	13	1
-	^	10	18
-	.	10	17
-	+	1	0
-	+	4	58
-	+	14	43
-	+	6	25
-	+	7	3
-	+	8	0
-	+	9	0
-	+	10	0
-	+	7	0
-	+	5	0
-	+	6	17
-	+	7	17
-	+	8	16
-	+	9	17
-	+	10	17
-
-> ~/Scripts/uris
-	"	3	0
-	.	4	0
-	+	1	0
-	+	4	0
-	+	4	0
-
-> ~/.config/shadowsocks-qt5/config.ini
-	"	1	0
-
-> /usr/share/applications/shadowsocks-qt5.desktop
-	"	2	0
-
-> /mnt/f/blog/source/_drafts/周报4-20-4.28.md
-	"	1	0
-	^	6	317
-	.	8	186
-	+	3	489
-	+	3	17
-	+	4	0
-	+	6	317
-	+	7	382
-	+	8	186
-
-> /media/henryalps/Ubuntu 14.0/code/General/subplotNWayFig.m
-	"	49	7
-
-> ~/sample.md
-	"	1	0
-	^	1	1
-	.	2	0
-	+	2	0
-
-> /mnt/f/blog/tmp/_drafts/leetcode-summaries-To-Be-Continue.md
-	"	68	0
-	^	3	1
-
-> /mnt/f/blog/_config.ymln
-	"	1	0
-
-> /mnt/f/blog/node_modules/hexo/lib/extend/tag.js
-	"	56	4
-
-> /mnt/f/blog/node_modules/hexo/lib/hexo/post.js
-	"	320	4
-
-> /mnt/f/blog/node_modules/hexo/node_modules/nunjucks/src/lib.js
-	"	1	12
-
-> /mnt/f/blog/source/_posts/Android易忘知识点总结-To-Be-Continued.md
-	"	71	1
-	^	65	2
-	.	65	1
-	+	5	8
-	+	6	0
-	+	10	124
-	+	10	128
-	+	11	210
-	+	11	43
-	+	11	319
-	+	11	3
-	+	13	298
-	+	36	51
-	+	36	27
-	+	37	262
-	+	40	375
-	+	41	204
-	+	60	77
-	+	60	143
-	+	60	50
-	+	60	79
-	+	60	10
-	+	60	158
-	+	72	0
-	+	64	35
-	+	66	285
-	+	70	265
-	+	71	317
-	+	36	0
-	+	36	0
-	+	15	0
-	+	15	46
-	+	15	46
-	+	15	46
-	+	15	0
-	+	15	46
-	+	15	0
-	+	36	0
-	+	60	0
-	+	45	0
-	+	52	0
-	+	46	24
-	+	48	27
-	+	54	0
-	+	56	1
-	+	55	0
+	+	30	0
 	+	43	0
-	+	60	0
-	+	64	35
-	+	66	0
-	+	67	0
-	+	68	0
-	+	69	0
-	+	70	0
-	+	32	1
-	+	34	10
-	+	19	1
-	+	34	11
-	+	37	0
-	+	59	0
-	+	15	0
-	+	16	0
-	+	15	21
-	+	32	18
-	+	36	1
-	+	43	0
-	+	44	0
-	+	43	0
-	+	42	0
-	+	50	0
-	+	57	0
-	+	56	38
-	+	57	18
-	+	43	12
-	+	60	0
-	+	61	2
-	+	64	0
-	+	66	0
-	+	36	1
-	+	39	1
-	+	65	1
-
-> /usr/share/vim/vim74/doc/change.txt
-	"	1305	0
-
-> /mnt/f/blog/themes/landscape-plus/source/css/_partial/header.styl
-	"	32	0
-	^	32	1
-	.	32	0
-	+	33	2
-	+	32	0
-
-> /mnt/f/blog/source/_posts/android-e5-bc-80-e5-8f-91-e4-b8-8e-e6-b3-9b-e5-9e-8b-e5-8f-8a-e5-85-b6-e5-ae-83.md
-	"	6	1
-	^	6	2
-	.	6	1
-	+	8	0
-	+	8	0
-	+	1	7
-	+	2	6
-	+	5	11
-	+	8	0
-	+	9	0
-	+	5	11
-	+	6	8
-	+	7	0
-	+	6	1
-
-> /mnt/f/blog/source/_posts/hello-world-2.md
-	"	6	0
-	^	6	1
-	.	6	1
-	+	6	1
-
-> /mnt/f/blog/themes/landscape-plus/_config.yml
-	"	36	19
-	^	36	20
-	.	36	19
-	+	36	19
-
-> /mnt/f/blog/source/_posts/Interview-issues-summarise.md
-	"	18	0
-	^	18	1
-	.	18	1
-	+	4	20
-	+	9	11
-	+	7	1
-	+	9	15
-	+	10	59
-	+	19	82
-	+	7	14
-	+	13	32
-	+	15	15
-	+	16	0
-	+	13	2
-	+	14	0
-	+	18	1
-
-> /mnt/f/blog/themes/landscape/source/css/_partial/article.styl
-	"	168	0
-
-> /mnt/f/blog/themes/landscape/layout/_partial/head.ejs
-	"	31	60
-	^	31	61
-	.	31	60
-	+	31	60
-
-> /mnt/f/blog/themes/landscape/layout/_partial/after-footer.ejs
-	"	17	55
-	^	17	56
-	.	17	40
-	+	17	40
-
-> /mnt/f/blog/[Vundle] Installer
-	"	10	0
-	.	1	0
-	+	1	0
-
-> /tmp/viu2xA7/7
-	"	1	21
-
-> /tmp/vHPpBI7/8
-	"	1	0
-
-> ~/Scripts/0-shadowsocks-gui
-	"	1	0
-
-> /mnt/f/blog/source/_drafts/Gunnar眼镜近视定制款海淘记录-全程Paypal.md
-	"	34	0
-	^	34	0
-	.	34	0
-	+	27	142
+	+	31	74
+	+	33	52
 	+	34	0
+	+	42	0
+	+	35	8
+	+	38	0
+	+	41	0
+	+	39	47
 
-> /mnt/f/blog/source/_posts/Gunnar眼镜近视定制款海淘记录-全程Paypal.md
-	"	31	24
-	^	31	27
-	.	31	24
-	+	3	13
-	+	6	74
-	+	7	57
-	+	8	3
-	+	8	20
-	+	8	3
-	+	8	39
-	+	7	50
-	+	8	38
-	+	14	52
-	+	16	65
-	+	17	70
-	+	21	44
-	+	22	6
-	+	18	190
-	+	18	0
-	+	18	274
-	+	20	14
-	+	22	9
-	+	21	53
-	+	22	57
-	+	26	0
-	+	21	3
-	+	22	57
-	+	24	82
-	+	25	18
-	+	25	111
-	+	27	115
-	+	28	351
-	+	31	24
-
-> ~/workspace/Java_workspace/main.java
-	"	23	11
-	^	23	12
-	.	23	11
-	+	1	0
-	+	27	0
-	+	24	60
-	+	26	0
-	+	24	34
-	+	23	25
-	+	24	25
-	+	23	12
-	+	24	11
-	+	23	10
-	+	24	12
-	+	25	2
-	+	2	26
-	+	23	2
-	+	24	11
-	+	22	25
-	+	24	0
-	+	25	0
-	+	23	11
-
-> ~/workspace/HTML_workspace/DOM/index.html
-	"	10	45
-	^	10	46
-	.	10	45
-	+	12	8
-	+	7	0
-	+	5	39
-	+	3	7
-	+	5	67
-	+	3	15
-	+	11	10
-	+	10	43
-	+	3	18
-	+	4	9
-	+	6	10
-	+	4	20
-	+	10	45
-
-> /media/henryalps/B4FE-5315/1.0.2(NEW)/README.md
+> /mnt/f/blog/node_modules/hexo-qiniu-sync/default.js
 	"	1	0
-	^	8	27
-	.	1	0
-	+	1	23
-	+	5	2
-	+	3	24
+
+> /mnt/f/blog/node_modules/hexo-qiniu-sync/cmd.js
+	"	74	0
+
+> /mnt/f/blog/node_modules/hexo-qiniu-sync/index.js
+	"	137	0
+
+> /mnt/f/blog/node_modules/hexo-qiniu-sync/config.js
+	"	1	0
+
+> /etc/proxychains.conf
+	"	61	20
+	^	61	21
+	.	61	20
+	+	1	16
+	+	61	20
+
+> /usr/local/etc/npmrc
+	"	2	10
+	^	2	11
+	.	2	11
 	+	1	0
-	+	8	0
-	+	7	0
-	+	6	0
-	+	5	0
-	+	4	0
 	+	3	0
-	+	2	0
+	+	2	11
+
+> /usr/local/etc/npmrv
+	"	1	0
+
+> ~/.cow/rc
+	"	6	0
+	^	68	65
+	.	68	64
+	+	27	29
+	+	52	0
+	+	59	0
+	+	68	64
+
+> ~/.cow/blocked
+	"	1	2
+	^	1	3
+	.	1	2
+	+	1	2
+
+> /mnt/f/blog/node_modules/hexo-renderer-markdown-it/node_modules/markdown-it/lib/index.js
+	"	485	8
+	^	469	15
+	.	469	14
+	+	467	0
+	+	466	5
+	+	469	14
+
+> /mnt/f/blog/source/_posts/index.js
+	"	8	0
+	^	8	0
+	.	9	0
+	+	9	0
+
+> /mnt/f/blog/source/.vimrc
+	"	1	0
+
+> /mnt/f/blog/themes/lightum/layout/backup
+	"	1	0
+	.	1	0
 	+	1	0
 
-> /media/henryalps/B4FE-5315/1.0.2(NEW)/README.MD
+> /mnt/f/blog/source/_posts/new
+	"	1	0
+	.	1	0
+	+	1	100
+	+	1	58
+	+	3	0
+	+	1	0
+
+> /mnt/f/blog/source/_posts/.vimrc
 	"	1	0
 	^	1	0
 	.	1	0
 	+	1	0
 
-> /mnt/f/blog/source/_posts/Android易忘
+> /mnt/f/blog/themes/lightum/source/js/prettygist/jquery.prettygist.min.js
+	"	5	3929
+	^	5	3930
+	.	6	0
+	+	6	0
+
+> /mnt/f/blog/themes/lightum/source/css/syntax-styles/prettygist.min.css
+	"	23	6546
+	^	23	6547
+	.	24	0
+	+	24	0
+
+> /mnt/f/blog/node_modules/hexo-generator-tag/index.js
 	"	1	0
 
-> /mnt/f/blog/source/_drafts/周报4-6-4-19.md
-	"	10	130
-	^	10	131
-	.	10	130
-	+	2	12
-	+	7	448
-	+	7	448
-	+	7	648
-	+	8	364
-	+	8	0
-	+	8	461
-	+	9	114
-	+	10	130
-
-> /mnt/f/blog/source/_posts/layout-draft.md
-	"	4	0
-
-> ~/Android/bin/1.0.2/版本号与更新说明.md
-	"	12	44
-	^	12	47
-	.	12	44
-	+	6	41
-	+	7	45
-	+	10	29
-	+	11	11
-	+	9	29
-	+	10	0
-	+	11	41
-	+	12	44
-
-> ~/workspace/C++_workspace/UCare-RG/20150331134147.bin
-	"	1	488
-
-> ~/文档/WFDB/JNI/jni/Debug.cpp
-	"	9	49
-	^	9	51
-	.	9	50
-	+	1	17
-	+	3	19
-	+	3	22
-	+	4	8
-	+	3	0
-	+	9	50
-
-> ~/workspace/C++_workspace/UCare-RG/readData.cpp
-	"	76	0
-	^	60	26
-	.	60	26
-	+	17	43
-	+	28	6
-	+	18	16
-	+	25	5
-	+	20	25
-	+	19	20
-	+	74	0
-	+	35	0
-	+	35	23
-	+	35	12
-	+	39	26
-	+	29	9
-	+	30	0
-	+	29	16
+> ~/new
+	"	1	0
+	.	14	0
 	+	1	0
-	+	31	43
-	+	27	23
-	+	35	19
-	+	17	10
-	+	6	38
-	+	11	1
-	+	13	0
-	+	11	2
-	+	9	18
-	+	11	19
-	+	15	0
-	+	7	44
-	+	25	2
-	+	11	2
-	+	12	0
-	+	11	38
-	+	12	13
-	+	11	42
-	+	6	10
-	+	17	1
-	+	17	1
-	+	6	0
-	+	6	0
-	+	16	0
+	+	14	0
+
+> ~/.vim/bundle/gist-vim/doc/gist-vim.txt
+	"	324	28
+
+> ~/[Vundle] Installer
+	"	19	0
+	.	1	0
+	+	137	0
+	+	126	0
+	+	116	0
+	+	106	0
+	+	97	0
+	+	88	0
+	+	79	0
+	+	67	0
+	+	53	0
+	+	36	0
+	+	19	0
+	+	1	0
+
+> ~/.vim/UltiSnips/markdown.snipppets
+	"	1	0
+	^	1	23
+	.	1	28
+	+	1	39
+	+	2	16
+	+	3	12
+	+	4	19
+	+	5	4
+	+	6	9
+	+	4	19
+	+	1	39
+	+	5	0
+	+	2	0
+	+	1	28
+
+> /mnt/f/blog/source/_posts/[Vundle] Installer
+	"	17	0
+	.	1	0
 	+	17	0
-	+	16	38
-	+	5	10
-	+	35	20
-	+	35	0
-	+	35	25
-	+	22	0
-	+	20	29
-	+	35	0
-	+	35	41
-	+	35	11
-	+	21	1
-	+	35	0
-	+	34	0
-	+	27	12
-	+	74	2
 	+	1	0
-	+	17	1
-	+	39	28
-	+	74	0
-	+	73	0
-	+	42	33447
-	+	42	39
-	+	45	42
-	+	76	0
-	+	50	11
-	+	76	0
-	+	46	26
-	+	48	39
-	+	47	17
-	+	48	42
-	+	63	42
-	+	64	17
-	+	67	16
-	+	68	2
-	+	67	56
-	+	47	23
-	+	67	51
-	+	52	18
-	+	53	48
-	+	55	29
-	+	43	8
-	+	60	26
 
-> /usr/share/vim/vim74/doc/help.txt
+> ~/test
 	"	1	0
 
-> ~/.viminfo
-	"	262	0
-
-> ~/文档/WFDB/JNI/jni/com_microsenstech_ucarerg_process_SignalProcessor.h
-	"	1	0
-
-> /media/henryalps/Ubuntu 14.0/uCare_Net_HN_24/jni/Debug.cpp
-	"	31	75
-	^	31	76
-	.	31	75
-	+	41	0
-	+	9	22
-	+	9	22
-	+	33	17
-	+	59	0
-	+	11	23
-	+	12	41
-	+	40	7
-	+	67	2
-	+	9	6
-	+	57	1
-	+	54	4
-	+	61	23
-	+	66	0
-	+	21	0
-	+	22	0
-	+	33	0
-	+	12	30
-	+	22	0
-	+	10	0
-	+	3	32
-	+	10	45
-	+	20	1
-	+	33	0
-	+	70	1
-	+	69	12
-	+	21	0
-	+	22	34
-	+	14	18
-	+	22	43
-	+	23	18
-	+	25	2
-	+	4	25
-	+	26	7
-	+	13	15
-	+	28	3
-	+	15	25
-	+	28	71
-	+	29	0
-	+	31	27
-	+	18	31
-	+	31	84
-	+	51	14
-	+	52	1
-	+	32	35
-	+	34	16
-	+	36	6
-	+	35	8
-	+	39	18
-	+	31	75
-	i	31	75
-
-> /tmp/viD5jhH/18
-	"	89	0
+> /usr/share/vim/vim74/doc/message.txt
+	"	421	7

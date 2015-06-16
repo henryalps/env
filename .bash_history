@@ -1,1227 +1,3 @@
-whereis hexo
-cd /mnt/f/blog/
-ls
-cd source/
-ls
-cd ../public/
-ls
-cd ..
-cd themes/
-ls
-cd landscape/
-ls
-cd layout/
-vim _partial/footer.ejs 
-hexo d -g
-cd
-cd blog
-vim Gitlab-Redmine-Jenkins折腾.md 
-exit
-cd blog
-hexo
-hexo new
-hexo new "Gitlab+Redmine+Jenkins折腾"
-vim Gitlab-Redmine-Jenkins折腾.md 
-hexo d -g
-vim Gitlab-Redmine-Jenkins折腾.md 
-hexo d -g
-exit
-ssh henry@herui.me
-ssh henry@herui.me -p 9325
-vim wizMarkdown.min.js 
-pwd
-export ANDROID_HOME=/home/henryalps/Android/android-ndk-r9d
-export ANDROID_HOME=/home/henryalps/Android/sdk
-export /home/henryalps/Android/android
-export ANDROID_NDK_HOME=/home/henryalps/Android/android-ndk-r9d
-cd .
-cd
-cd shadowsocks-android/
-ls
-mv local.properties.example local.properties
-vim local.properties
-echo ANDROID_HOME
-echo $ANDROID_HOME
-echo $ANDROID_NDK_HOME
-git submodule update --init
-./build.sh
-cd /home/henryalps/Android/android-ndk-r9d/toolchains/
-ls
-cd
-cd shadowsocks-android/
-ls
-sudo ps -aux |grep guake
-ps
-top
-./laucher.sh 
-export /mnt/f/TEMP/android-ndk-r10d
-
-export ANDROID_NDK_HOME=/mnt/f/TEMP/android-ndk-r10d
-./laucher.sh 
-ls
-./laucher.sh 
-./build.sh 
-sbt clean android:package-release
-tsocks sbt clean android:package-release
-ls
-vim build.s
-vim build.sbt 
-vim project/build.properties 
-tsocks sbt clean android:package-release
-sbt sbt-version
-tsocks sbt sbt-version
-sbt sbt-version
-sbt
-sbt sbt-version
-./build.sh 
-ls
-cd ..
-ls
-cd shadowsocks-android/
-ls
-./laucher.sh 
-cd target/
-ls
-cd android-bin/
-ls
-cd ..
-cat build.sbt 
-ls
-cd project/
-ls
-cd target/
-ls
-cd ..
-ls
-cd shadowsocks-android/
-ls
-nautilus
-nautilus .
-sbt sign-release
-sbt package-release
-sbt package-debug
-sbt
-tsocks sbt
-sbt
-sudo aptitude remove sbt
-cd ..
-ls
-rm shadowsocks-android/
-rm shadowsocks-android/ -rf
-ls
-cd workspace/
-ls
-touch git_workspace
-rm git_workspace 
-mkdir tmp_workspace
-cd tmp_workspace/
-ls
-git clone https://github.com/geekcompany/DeerResume.git
-cd DeerResume/
-nautilus .
-grep -rl "content" .
-grep -rl "content" . |more
-grep -Hrn 'content' .
-grep -Hrn 'content' . |more
-grep -rl "content" . |more
-grep -rl "content" . 
-ssh henry@herui.me
-ssh henry@herui.me -p 9325
-exit
-chmod a+x android-ndk-r10d-linux-x86_64.bin 
-./android-ndk-r10d-linux-x86_64.bin 
-ls
-git clone https://github.com/geekcompany/DeerResume.git
-ssh henry@herui.me -p 9325
-./Scripts/1-sogou 
-./Scripts/2-sogou 
-exit
-cd
-./Scripts/0-shadowsocks-gui
-exit
-vim com_microsenstech_ucarerg_process_SignalProcessor.h 
-clear
-vim Debug.cpp 
-exit
-locate eclipse |more
-exit
-mv ~/文档/WFDB/JNI/jni/* .
-exit
-vim .viminfo 
-./eclipse 
-exit
-cat 20150331134147.bin 
-cat 20150331134147.bin |more
-cat 20150331134147.bin 
-clear
-cat 20150331134147.bin |more
-exit
-touch readData.cpp
-vim readData.cpp 
-./readData 
-vim readData.cpp 
-g++ readData.cpp -o readData
-./readData 
-vim readData.cpp 
-./readData 
-cat 20150331134147.txt 
-vim readData.cpp 
-cat 20150331134147.txt 
-vim readData.cpp 
-cd ..
-ls
-nautilus .
-sudo aptitude search Google
-sudo aptitude install unity-webapps-googlecalendar
-cd blog
-hexo new "我常用的Ubuntu Unity桌面软件(To be continue...)"
-vim 我常用的Ubuntu-Unity桌面软件-To-be-continue.md 
-hexo new "MEMO(To be continue)"
-hexo --help[
-rm MEMO-To-be-continue.md 
-hexo new "MEMO(To be continue...)"
-vim MEMO-To-be-continue.md 
-hexo new "MIMIC数据库使用记录(To be continue...)"
-vim MIMIC数据库使用记录-To-be-continue.md 
-hexo d -g
-vim MIMIC数据库使用记录-To-be-continue.md 
-vim MEMO-To-be-continue.md 
-hexo d -g
-vim MIMIC数据库使用记录-To-be-continue.md 
-hexo d -g
-vim MIMIC数据库使用记录-To-be-continue.md 
-hexo d -g
-ls
-vim MIMIC数据库使用记录-To-be-continue.md 
-ls |grep Android
-ls
-vim android-e5-bc-80-e5-8f-91-e4-b8-8e-e6-b3-9b-e5-9e-8b-e5-8f-8a-e5-85-b6-e5-ae-83.md 
-vim MIMIC数据库使用记录-To-be-continue.md 
-hexo d -g
-vim MIMIC数据库使用记录-To-be-continue.md 
-hexo d -g
-hexo
-hexo d -g -c
-vim MEMO-To-be-continue.md 
-history |grep grep
-ls |grep linux
-cat e4-b8-80-e4-ba-9b-e6-9c-89-e7-94-a8-e7-9a-84linux-e5-91-bd-e4-bb-a4-ef-bc-88to-be-continue-ef-bc-89.md
-vim e4-b8-80-e4-ba-9b-e6-9c-89-e7-94-a8-e7-9a-84linux-e5-91-bd-e4-bb-a4-ef-bc-88to-be-continue-ef-bc-89.md
-ls |grep android
-hexo new 'Android易忘知识点总结(To Be Continued...)'
-vim Android易忘知识点总结-To-Be-Continued.md 
-vim MIMIC数据库使用记录-To-be-continue.md 
-cd ..
-ls
-cd 文档/WFDB/
-ls
-cd JNI/
-ls
-cd jni/
-nautilus .
-locate eclipse
-locate eclipse |more
-whereis gcc
-gcc --version
-gcc
-cd 
-./Scripts/gcc-set-default-version.sh 4.9
-sudo ./Scripts/gcc-set-default-version.sh 4.9
-cd
-ls
-ls -la
-git init
-git add .bash*
-git status
-git add .vim*
-git statues |more
-git status |more
-cat .bash_profile 
-git rm .bash_profile 
-git rm .bash_profile  --cached
-ls
-ls .bash*
-git status |more
-cat .bash_logout 
-git commit "First Comment On Lab Ubuntu."
-git commit -m "First Comment On Lab Ubuntu." 
-git remote add origin git@github.com:henryalps/env.git
-git push -u origin master
-ls
-git status |more
-cd .vim/
-ls
-sudo aptitude remove vim
-ls
-cd ..
-rm -rf .vim
-ls
-ls -la |grep vim
-rm .vim*
-rm .gvimrc 
-ls
-ls -la
-zsh
-rm .zlogin .zshrc 
-ls
-sudo aptitude install vim
-ls -la |grep vim
-git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-touch .vimrc
-vim .vimrc 
-vim
-vim .vimrc 
-cd blog
-vim MEMO-To-be-continue.md 
-history |grep grep
-cd ..
-cd 文档/
-ls
-mv matlab_workspace/ ../workspace/
-cd WFDB/
-ls
-cd JNI/
-ls
-cd jni/
-ls
-grep -rl 'com_microsenstech_ucarerg_process_SignalProcessor.h' .
-cd
-cd blog
-ls
-hexo new 'Interview issues summarise'
-vim Interview-issues-summarise.md 
-vim MEMO-To-be-continue.md 
-history |grep Debug
-locate Debug.cpp
-vim Debug.cpp
-vim
-touch Debug.cpp
-vim Debug.cpp 
-ls
-vim Debug.cpp 
-cat 20150331134147.bin | data
-touch data
-cat 20150331134147.bin | data
-cat 20150331134147.bin > data
-cat data
-rm data
-vim 20150331134147.bin 
-./Scripts/0-shadowsocks-gui
-exit
-subl
-./Scripts/1-sogou 
-./Scripts/2-sogou 
-./Scripts/1-sogou 
-./Scripts/2-sogou 
-./Scripts/1-sogou 
-./Scripts/2-sogou 
-exit
-cd blog
-vim Android易忘知识点总结-To-Be-Continued.md 
-hexo d -g
-ssh henry@herui.me
-ssh henry@herui.me -p 9325
-exit
-vim 版本号与更新说明.md
-touch 目录说明.md
-cd 
-cd blog
-vim MIMIC数据库使用记录-To-be-continue.md 
-hexo d -g
-hexo clear
-hexo d -g -c
-vim MIMIC数据库使用记录-To-be-continue.md 
-cd ..
-./Scripts/0-shadowsocks-gui
-exit
-cd
-cd blog
-ls
-vim Android易忘
-vim Android易忘知识点总结-To-Be-Continued.md 
-hexo d -g -c
-./Scripts/0-shadowsocks-gui
-cd blog
-ls
-vim MIMIC数据库使用记录-To-be-continue.md 
-hexo new
-hexo new title="周报4.6-4.19" layout=draft
-vim layout-draft.md
-hexo remove layout-draft.md 
-rm layout-draft.md 
-hexo new draft "周报4.6-4.19"
-cd /mnt/f/blog/source/_drafts/
-vim 周报4-6-4-19.md 
-ssh test@redmine6.herui.me
-vim README.MD
-vim README.md
-sudo init 0
-vim index.html
-ls
-open index.html 
-firefox index.html 
-vim index.html 
-./Scripts/0-shadowsocks-gui &
-./Scripts/0-shadowsocks-gui
-./Scripts/1-sogou 
-./Scripts/2-sogou 
-./Scripts/1-sogou 
-./Scripts/2-sogou 
-./Scripts/1-sogou 
-./Scripts/2-sogou 
-ssh henry@herui.me
-ssh henry@herui.me -p 9325
-scp -p 9325 sample.md henry@herui.me:sample.md
-scp -P 9325 sample.md henry@herui.me:sample.md
-./Scripts/1-sogou 
-ssh henry@herui.me -p 9325
-./Scripts/0-shadowsocks-gui
-ssh henry@herui.me -p 9325
-cd blog
-ls
-exit
-nautilus .
-cd blog
-hexo new HTML转PDF的中文问题
-vim MIMIC数据库使用记录-To-be-continue.md 
-vim MEMO-To-be-continue.md 
-hexo new herui.me折腾总结
-rm HTML转PDF的中文问题.md 
-exit
-vim leetcode-summaries(To Be Continue...)
-hexo new leetcode-summaries(To Be Continue...)
-hexo new 'leetcode-summaries(To Be Continue...)'
-vim leetcode-summaries-To-Be-Continue.md 
-ls
-vim Interview-issues-summarise.md 
-exit
-cd ~/blog
-npm install hexo-admin
-cd blog
-vim MIMIC数据库使用记录-To-be-continue.md 
-git clone https://github.com/karpathy/Random-Forest-Matlab.git
-eix
-exit
-./Scripts/0-shadowsocks-gui
-./Scripts/1-sogou 
-./Scripts/2-sogou 
-cd blog
-ls
-cd ..
-cd blog
-cd _images/
-hexo new tmp
-cd /mnt/f/blog/source/_posts/
-rm tmp.md 
-ls
-mv _images/..
-mv _images/ ../
-ls
-cd ..
-ls
-cd _images/
-ls
-cd ..
-ls
-cd _posts/
-vim leetcode-summaries-To-Be-Continue.md 
-subl
-cd 
-ls
-cd workspace/
-ls
-cd Physionet_workspace/
-ls
-cat test.m 
-nautilus .
-ssh test@redmine6.herui.me
-exit
-cd
-cd blog
-ls
-cd /mnt/f/blog/
-ls
-cd source/
-ls
-cd ..
-ls
-cd public/
-ls
-cd ..
-ls
-mkdir attachments
-cd attachments/
-cp ~/workspace/Physionet_workspace/test.m .
-ls
-cp ~/workspace/Physionet_workspace/test.m .
-scp test.m test@redmine6.herui.me:/home/test/WFDBDATA/tmp
-cd ~/workspace/Physionet_workspace/
-scp urls.txt  test@redmine6.herui.me:/home/test/WFDBDATA/tmp
-ls
-scp urls.txt  test@redmine6.herui.me:/home/test/WFDBDATA/exit
-exit
-./Scripts/1-sogou 
-./Scripts/2-sogou 
-exit
-mkdir RF
-ls
-cd RF/
-ls
-hexo new 'Random Forest Notes'
-cd ~/blog
-hexo new 'Random Forest Notes'
-vim Random-Forest-Notes.md 
-vim MIMIC数据库使用记录-To-be-continue.md 
-ls
-cd ..
-ls
-cd /mnt/f/blog/
-ls
-cd source/
-ls
-cd _drafts/
-ls
-vim Gunnar眼镜近视定制款海淘记录-全程Paypal.md 
-cd ..
-ls
-cd _drafts/
-ls
-cd ../_posts/
-ls
-vim MIMIC数据库使用记录-To-be-continue.md 
-exit
-git clone git clone https://github.com/scikit-learn/scikit-learn.git
-git clone https://github.com/scikit-learn/scikit-learn.git
-exit
-./Scripts/1-sogou 
-./Scripts/2-sogou 
-exit
-./Scripts/0-shadowsocks-gui
-exit
-./easytest
-./easytest2 
-./bxbep
-./easytest
-e.
-subl
-cd
-vim .vimrc 
-cd
-vim .vim
-vim .vimrc 
-exit
-./Scripts/0-shadowsocks-gui
-vim Scripts/0-shadowsocks-gui
-cd blog
-hexo d -g -c
-ls
-cd /mnt/f/blog/
-ls
-vim _config.yml
-hexo d -g -c
-vim _config.yml
-hexo d -g -c
-vim _config.yml
-hexo d -g 
-npm install hexo-renderer-marked --save
-ls
-hexo d -g 
-vim _config.yml
-hexo d -g 
-vim _config.yml
-hexo d -g 
-cat /mnt/f/blog/node_modules/hexo/lib/hexo/post.js
-hexo d -g 
-vim /mnt/f/blog/node_modules/hexo/lib/hexo/post.js
-vim _config.yml
-hexo d -g 
-vim _config.yml
-hexo d -g 
-vim _config.yml
-hexo d -g  -c
-vim _config.yml
-hexo d -g  -c
-npm i hexo-renderer-markdown-it --save
-tsocks npm i hexo-renderer-markdown-it --save
-npm i hexo-renderer-markdown-it --save
-hexo d -g -c
-npm install hexo-filter-auto-spacing --save
-vim _config.yml
-sudo aptitude install indent
-exit
-sudo aptitude remove ImageMa*
-sudo aptitude install KolourPaint
-sudo aptitude remove KolourPaint
-exit
-cd
-cd blog
-ls
-vim leetcode-summaries-To-Be-Continue.md 
-vim MIMIC数据库使用记录-To-be-continue.md 
-hexo d -g -c
-vim MEMO-To-be-continue.md 
-ls
-cd /mnt/f/blog/source/
-ls
-cd _drafts/
-ls
-vim 周报4-20-4.28.md
-subl 周报4-20-4.28.md 
-cat 周报4-
-cat 周报4-20-4.28.md 
-ls
-cd ..
-ls
-cd _posts/
-ls
-vim leetcode-summaries-To-Be-Continue.md 
-cd ..
-ls
-cd ..
-ls
-vim _config.ymln
-vim _config.yml
-hexo d -g -c
-vim _config.yml
-hexo d -g -c
-vim /mnt/f/blog/node_modules/hexo/node_modules/nunjucks/src/lib.js
-vim _config.yml
-hexo d -g -c
-vim /mnt/f/blog/node_modules/hexo/lib/hexo/post.js
-vim /mnt/f/blog/node_modules/hexo/lib/extend/tag.js
-vim _config.ymln
-vim _config.yml
-ls
-cd themes/
-ls
-cd landscape
-cd ..
-ls
-hexo d -g
-cd ..
-ls
-cd source/
-ls
-cd _posts/
-ls
-vim leetcode-summaries-To-Be-Continue.md 
-hexo d -g
-mv leetcode-summaries-To-Be-Continue.md ../_drafts/
-vim MEMO-To-be-continue.md 
-hexo d -g
-mv MEMO-To-be-continue.md ../_drafts/
-hexo d -g
-mv MIMIC数据库使用记录-To-be-continue.md  ../_drafts/
-hexo d -g
-hexo d -g -c
-hexo server
-ls
-cd ..
-ls
-cd ..
-ls
-mkdir tmp
-mv source/_drafts/ tmp/
-ls
-vim _config.yml
-hexo d -g
-vim _config.yml
-hexo server
-hexo d -g
-ls
-mv tmp/_drafts/leetcode-summaries-To-Be-Continue.md source/_posts/
-hexo server
-mv source/_posts/leetcode-summaries-To-Be-Continue.md tmp/_drafts/
-hexo server
-mv tmp/_drafts/MEMO-To-be-continue.md source/_posts/
-hexo server
-mv tmp/_drafts/MIMIC数据库使用记录-To-be-continue.md source/_posts/
-hexo server
-mv tmp/_drafts/* source/_posts/
-mv source/_posts/leetcode-summaries-To-Be-Continue.md tmp/_drafts/
-ls
-hexo server
-vim tmp/_drafts/leetcode-summaries-To-Be-Continue.md 
-mv tmp/_drafts/leetcode-summaries-To-Be-Continue.md source/_posts/
-ls
-rm -rf tmp
-vim source/_posts/leetcode-summaries-To-Be-Continue.md 
-cd source/
-ls
-cd _posts/
-ls
-nautilus
-nautilus .
-hexo d -g -c
-vim MEMO-To-be-continue.md 
-hexo d -g -c
-vim MEMO-To-be-continue.md 
-hexo new 'scikit学习记录'
-vim new scikit学习记录.md 
-
-ls
-vim _config.yml
-hexo d -g -c
-npm install hexo-filter-fenced-code
-npm install hexo-filter-fenced-code --save
-hexo d -g -c
-hexo version
-hexo update -g
-npm install -g hexo
-sudo npm install -g hexo
-hexo d -c -g
-ls
-mv attachments/ source/
-cd source/
-ls
-cd ../themes/
-ls
-cd landscape/
-ls
-grep 'jquery' -r ./
-vim layout/_partial/after-footer.ejs 
-grep 'jquery' -r ./
-grep 'fonts' -r ./
-vim layout/_partial/head.ejs 
-hexo server
-cd source/css/_partial/
-ls
-vim article.styl 
-cd ..
-ls
-cd ..
-ls
-vim _config.yml
-ls
-cd source/
-ls
-cd _posts/
-ls
-vim Interview-issues-summarise.md 
-vim MIMIC数据库使用记录-To-be-continue.md 
-hexo d -c -g
-vim leetcode-summaries-To-Be-Continue.md 
-vim android-e5-bc-80-e5-8f-91-e4-b8-8e-e6-b3-9b-e5-9e-8b-e5-8f-8a-e5-85-b6-e5-ae-83.md 
-hexo d -c -g
-vim leetcode-summaries-To-Be-Continue.md 
-git clone https://github.com/xiangming/landscape-plus.git themes/landscape-plus
-ls
-rm themes/
-rm themes/ -rf
-cd ../..
-ls
-git clone https://github.com/xiangming/landscape-plus.git themes/landscape-plus
-vim _config.yml
-hexo d -c -g
-vim themes/landscape-plus/source/css/_partial/header.styl 
-vim themes/landscape-plus/_config.yml 
-hexo d -c -g
-vim themes/landscape-plus/source/css/_partial/header.styl 
-ls themes/landscape-plus/source/css/_partial/
-ls themes/landscape-plus/source/css
-ls themes/landscape-plus/source/css/images/
-vim themes/landscape-plus/source/css/_partial/header.styl 
-hexo d -c -g
-ls
-cd source/
-ls
-cd _posts/
-ls
-vim android-e5-bc-80-e5-8f-91-e4-b8-8e-e6-b3-9b-e5-9e-8b-e5-8f-8a-e5-85-b6-e5-ae-83.md 
-vim hello-world-2.md 
-vim android-e5-bc-80-e5-8f-91-e4-b8-8e-e6-b3-9b-e5-9e-8b-e5-8f-8a-e5-85-b6-e5-ae-83.md 
-vim hello-world-2.md 
-vim android-e5-bc-80-e5-8f-91-e4-b8-8e-e6-b3-9b-e5-9e-8b-e5-8f-8a-e5-85-b6-e5-ae-83.md 
-hexo d -c -g
-vim android-e5-bc-80-e5-8f-91-e4-b8-8e-e6-b3-9b-e5-9e-8b-e5-8f-8a-e5-85-b6-e5-ae-83.md 
-hexo d -c -g
-vim android-e5-bc-80-e5-8f-91-e4-b8-8e-e6-b3-9b-e5-9e-8b-e5-8f-8a-e5-85-b6-e5-ae-83.md 
-hexo d -c -g
-cat android-e5-bc-80-e5-8f-91-e4-b8-8e-e6-b3-9b-e5-9e-8b-e5-8f-8a-e5-85-b6-e5-ae-83.md 
-hexo new 'android开发与泛型及其它'
-vim android开发与泛型及其它.md 
-rm android-e5-bc-80-e5-8f-91-e4-b8-8e-e6-b3-9b-e5-9e-8b-e5-8f-8a-e5-85-b6-e5-ae-83.md 
-hexo d -c -g
-vim /mnt/f/blog/themes/landscape-plus/source/css/_partial/header.styl
-hexo d -c -g
-vim /mnt/f/blog/themes/landscape-plus/source/css/_partial/header.styl
-hexo d -c -g
-hexo clean
-hexo d -c -g
-vim Android易忘知识点总结-To-Be-Continued.md 
-hexo d -c -g
-vim Android易忘知识点总结-To-Be-Continued.md 
-hexo d -c -g
-vim Android易忘知识点总结-To-Be-Continued.md 
-hexo d -c -g
-vim Android易忘知识点总结-To-Be-Continued.md 
-hexo d -c -g
-vim Android易忘知识点总结-To-Be-Continued.md 
-hexo d -c -g
-vim Android易忘知识点总结-To-Be-Continued.md 
-vim leetcode-summaries-To-Be-Continue.md 
-hexo d -c -g
-ls
-vim leetcode-summaries-To-Be-Continue.md 
-cd 
-cd .vim/bundle/
-ls
-cd YouCompleteMe/
-ls
-./install.sh --clang-completer
-sudo aptitude install CMake
-./install.sh --clang-completer
-./install.sh --clang-completer --omnisharp-completer --gocode-completer
-cd /mnt/
-ls
-cd /media/
-ls
-cd henryalps/
-ls
-cd Ubuntu\ 14.0/
-ls
-cd code/toilet_bpmonitor/
-ls
-nautilus .
-sudo aptitude install gimp
-exit
-ls
-cd workspace/
-ls
-cd Physionet_workspace/
-ls
-exit
-wget http://physionet.org/physiotools/matlab/wfdb-app-matlab/wfdb-app-toolbox-0-9-9.zip
-exit
-pwd
-vim subplotNWayFig.m
-cd /mnt/f/blog/
-ls
-cd source/
-ls
-cd _posts/
-ls
-vim MIMIC数据库使用记录-To-be-continue.md 
-cd 
-vim .vimrc 
-git push
-ls
-cd 文档
-ls
-cd WFDB
-ls
-nautilus .
-chmod 755 /usr/local/MATLAB/R2013b/toolbox/local/pathdef.m
-sudo chmod 755 /usr/local/MATLAB/R2013b/toolbox/local/pathdef.m
-ls /usr/local/MATLAB/R2013b/toolbox/local/
-wget http://physionet.org/physiotools/matlab/wfdb-app-matlab/wfdb-app-toolbox-0-9-9.zip
-subl .
-ls -t
-sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas pyth    on-sympy python-nose
-sudo aptitude install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
-cd /mnt/f/blog/source/_drafts/
-cd ..
-ls
-cd home/
-ls
-cd henryalps/
-ls
-vim sample.md 
-cd workspace/
-ls
-cd Physionet_workspace/
-ls
-ls data/
-ls data/waveform_seg/
-cd ..
-ls
-cd workspace/Physionet_workspace/
-ls
-matlab
-cd 
-cd blog
-vim MEMO-To-be-continue.md 
-ls
-cd /mnt/f/blog/
-ls
-cd source/
-ls
-cd _drafts/
-ls
-vim 周报4-20-4.28.md 
-ps -aux |grep shadowsocks
-history |grep sslocal
-history |grep shadow
-locate config.json
-locate config.json |grep shadow
-cat Scripts/0-shadowsocks-gui
-./home/henryalps/软件/shadowsocks-gui-0.6.4-linux-x64/start.sh
-cd /home/henryalps/软件/shadowsocks-gui-0.6.4-linux-x64/
-ls
-./start.sh 
-top
-ps -aux |grep zombie
-sudo kill 5423
-ps -aux |grep zombie
-exit
-cd blog
-vim MEMO-To-be-continue.md 
-cd 
-./Scripts/1-sogou 
-./Scripts/2-sogou 
-ssh henry@2604:180:3:244::6574
-cd .ssh/
-ls 
-ssh-copy-id id_rsa.pub henry@2604:180:3:244::6574
-ssh-copy-id -i id_rsa.pub henry@2604:180:3:244::6574
-ssh 'henry@2604:180:3:244::6574'
-exit
-cd blog
-vim MEMO-To-be-continue.md 
-ssh test@redmine6.herui.me
-cd .config/
-ls
-cd shadowsocks-qt5/
-ls
-ls -la
-cd ../shadowsocks-gui/
-ls
-cd ..
-rm -rf shadowsocks-gui/
-cd shadowsocks
-ls
-cat gui-config.json 
-ping6 2604:180:3:244::6574
-ssh henry@2607:fcd0:100:5e00:199::9652
-exit
-wget http://dlsw.baidu.com/sw-search-sp/soft/3a/12350/QQ7.1.14522.0.1430099946.exe 
-ls
-rm QQ7.1.14522.0.1430099946.exe 
-ls
-tsocks rm QQ7.1.14522.0.1430099946.exe 
-tsocks wget http://dlsw.baidu.com/sw-search-sp/soft/3a/12350/QQ7.1.14522.0.1430099946.exe 
-rm QQ7.1.14522.0.1430099946.exe 
-sudo init 0
-ps -aux |grep shadowsocks
-sudo kill 4347
-ps -aux |grep qt
-ps -aux |grep shadow
-ps -aux |grep shadowsocks
-sudo kill 4367
-]exit
-exit
-sudo init 1
-locate matlab
-locate shadowsocks-qt
-vim /usr/share/applications/shadowsocks-qt5.desktop
-ss-qt5
-cd /home/henryalps/.config/shadowsocks-qt5
-ls
-vim config.ini 
-ss-qt5 
-sudo aptitude install shadowsocks-qt5
-ss-qt5 
-sudo aptitude remove shadowsocks-qt5
-sudo aptitude autoremove
-sudo aptitude clean
-sudo aptitude autoclean
-ss-qt5
-cd .config/shadowsocks-qt5/
-ls
-mv config.ini ..
-ls
-dir
-ssh henry@herui.me
-ssh henry@herui.me -p 9325
-ssh 'henry@2604:180:3:244::6574'
-ssh henry@2607:fcd0:100:5e00:199::9652
-cd
-./Scripts/1-sogou 
-./Scripts/2-sogou 
-exit
-touch uris
-vim uris
-git init
-touch README.md
-git add README.md 
-vim README.md 
-./Scripts/1-sogou 
-./Scripts/2-sogou 
-exit
-cd
-./Scripts/1
-./Scripts/1-sogou 
-./Scripts/2-sogou 
-exit
-vim README.md 
-git commit -m "first and last commit"
-git remote add origin http://redmine6.herui.me:3000/root/images-2015-05-01.git
-git push -u origin master
-git add *
-git commit -m "first and last commit"
-git push -u origin master
-vim README.md 
-ssh henry@2607:fcd0:100:5e00:199::9652
-exit
-./Scripts/1-sogou 
-./Scripts/2-sogou 
-exit
-cd blog
-vim MEMO-To-be-continue.md 
-ssh henry@2607:fcd0:100:5e00:199::9652
-cd blog
-vim leetcode-summaries-To-Be-Continue.md 
-cd Scripts/
-cd ..
-ls
-ssh henry@2607:fcd0:100:5e00:199::9652
-ssh test@redmine6.herui.me
-exit
-pwd
-cd blog
-ls
-vim leetcode-summaries-To-Be-Continue.md 
-cd blog
-ls
-vim matlab-ubuntu-e7-bc-96-e7-a0-81-e9-97-ae-e9-a2-98.md 
-vim MEMO-To-be-continue.md 
-vim Random-Forest-Notes.md 
-vim Gitlab-Redmine-Jenkins折腾.md 
-hexo d -g -c
-vim leetcode-summaries-To-Be-Continue.md 
-git d -c -g
-hexo d -c -g
-cd ..
-cd workspace/Java_workspace/
-ls
-vim Solution.java
-cd ../../
-ls
-cd blog
-ls
-cd ..
-cd workspace/Java_workspace/
-vim Solution.java 
-ssh henry@2607:fcd0:100:5e00:199::9652
-exit
-cd workspace/
-cd Java_workspace/
-ls
-vim Solution.java 
-ced
-cd
-cd blog
-ls
-vim new 
-rm new
-hexo d -g -c
-hexo new 'Java易忘知识点总结（To Be Continue...）'
-vim Java易忘知识点总结（To-Be-Continue-）.md 
-cd ..
-cd workspace/Java_workspace/
-ls
-vim Solution.java 
-cd
-vim blog/leetcode-summaries-To-Be-Continue.md 
-hexo d -g -c
-cd blog
-hexo d -g -c
-vim leetcode-summaries-To-Be-Continue.md 
-hexo d -g -c
-vim leetcode-summaries-To-Be-Continue.md 
-nautilus .
-hexo d -g -c
-vim MEMO-To-be-continue.md 
-hexo d -g -c
-vim MEMO-To-be-continue.md 
-hexo d -g -c
-vim android开发与泛型及其它.md 
-hexo d -g -c
-vim android开发与泛型及其它.md 
-hexo d -g -c
-vim Java易忘知识点总结（To-Be-Continue-）.md 
-hexo d -g -c
-perl
-perl --version
-perl cloc-1.62.pl 
-cloc-1.62.pl .
-cloc-1.62.pl .
-cloc-1.62.pl 
-cloc-1.62.pl .
-./Scripts/1-sogou 
-./Scripts/2-sogou 
-exit
-vim resume.complete.html 
-scp resume.complete.html henry@herui.me:/home/henry/resume.complete.html -P 9325
-scp -P 9325 resume.complete.html henry@herui.me:/home/henry/resume.complete.html 
-ssh henry@herui.me -p 9325
-sudo init 0
-cd 文档
-cd Resume/
-ls
-vim resume.complete.html 
-retext
-./Scripts/1-sogou 
-./Scripts/2-sogou 
-exit
-cd 文档/Resume/
-LS
-ls
-nautilus .
-ls
-scp -P 9325 resume.complete.html henry@herui.me:/home/henry/resume.complete.html 
-git init
-git add resume.complete.html 
-git commit -m 'Only Complete resume'
-git remote add origin git@github.com:henryalps/resume.git
-git push -u origin master
-wget baidu.com
-tsocks wget baidu.com
-ping6 2001:778::37
-ping6 2001:da8:202:10::37
-ping6 baidu.com
-ping baidu.com
-ifconfig
-ping6 google.com
-ping6 ipv6.google.com
-traceroute6 ipv6.google.com
-tracert6 redmine6.herui.me
-wget baidu.com
-wget herui.me
-wget redmine6.herui.me
-ls
-rm index.html 
-ls
-dig herui.me
-ssh test@redmine6.herui.me
-tracert6 redmine6.herui.me
-ping6 2001:da8:8000:1:202:120:2:100
-ping6 2001:da8:208:10::6
-ping6 2001:cc0:2fff:2::6
-ping6 2001:15c0:65ff:25b::2
-ping6 2001:15c0:65ff:235::2
-ping6 2001:dc7:1000::1
-exity
-exit
-ping6 2001:470:20::2
-ping6 2001:8b0:6464::
-ping6 2001:470:20::2
-ping6 2001:df8:0:7::1
-ping6 2001:67c:27e4:1002::64
-ping6 2001:67c:2b0::4
-ping6 2001:778::37
-ping6 2001:67c:2b0::6
-ping6 2001:250:1001::1 
-exit
-scp -P 9325 resume.complete.html henry@herui.me:/home/henry/resume.complete.html 
-ssh henry@herui.me
-ssh henry@herui.me -p 9325
-ping6 2001:250:1001::23
-ping6 2001:250:1001::1
-ssh henry@herui.me
-ssh henry@herui.me -p 9325
-cd 文档/Resume/
-git push -u origin master
-ssh henry@herui.me -p 9325
-exit
-vim C_test_analysis.md
-exit
-vim 说明.txt
-exit
-vim C_test_analysis.md 
-exit
-dig ucaslife.cn
-dig www.ucaslife.cn
-ssh test@redmine6.herui.me
-ping6 ipv6.google.com
-exit
-ssh test@redmine6.herui.me
-ping6 2001:470:20::2
-ping6 2001:67c:27e4::46 
-ping6  2001:67c:27e4::64 
-ping6 2001:67c:27e4:1002::64 
-ping6 2001:67c:27e4::46
-ping6 2001:67c:27e4::60
-cd workspace/Java_workspace/
-ls
-vim pow.java
-javac pow.java 
-java pow 
-cd ..
-ls
-cd C_workspace/
-ls
-vim main.cpp
-vim main.cp
-ls
-./a.out 
-mv main.cpp
-mv main.cp main.cpp
-rm a.out 
-gcc main.cpp 
-ls
-vim main.cpp 
-ls
-./a.out 
-vim main.cpp 
-nautilus .
-ssh test@redmine6.herui.me
-cd /home/henryalps/workspace/Physionet_workspace
-ls
-vim urls.txt 
-scp urls.txt test@redmine6.herui.me:/home/test/WFDBDATA/.urls.txt
-ls
-vim removeDownloadedFiles.java
-vim RemoveDownloadedFiles.java
-sudo aptitude install Audacious
-cd
-cd blog
-ls
-ls |grep ubunt
-ls |grep Ubun
-ls |grep to-be-con
-vim e4-b8-80-e4-ba-9b-e6-9c-89-e7-94-a8-e7-9a-84linux-e5-91-bd-e4-bb-a4-ef-bc-88to-be-continue-ef-bc-89.md
-vim e5-b8-b8-e7-94-a8-e7-9a-84linux-e7-ab-af-e5-8f-a3to-be-continue.md 
-vim e5-b0-8f-e6-8a-80-e5-b7-a7-ef-bc-88to-be-continue-ef-bc-89.md 
-hexo d -g -c
-cd 
-cd workspace/Physionet_workspace/
-ls
-vim RemoveDownloadedFiles.java 
-javac RemoveDownloadedFiles.java 
-java RemoveDownloadedFiles 
-vim RemoveDownloadedFiles.java 
-touch names.txt
-javac RemoveDownloadedFiles.java 
-java RemoveDownloadedFiles 
-ls
-cat new.names.txt |more
-cat new.names.txt 
-vim RemoveDownloadedFiles.java 
-javac RemoveDownloadedFiles.java 
-java RemoveDownloadedFiles 
-cat new.names.txt 
-cat urls.txt |more
-cat urls.txt 
-vim RemoveDownloadedFiles.java 
-cp 贴吧技术部_客户端研发实习生\ \(百度\)-贺睿.pdf 安卓开发实习生(高德)_贺睿.pdf
-cd workspace/
-ls
-cd Physionet_workspace/
-ls
-vim RemoveDownloadedFiles.java 
-ssh henry@herui.me -p9325
-ssh henry@herui.me -p 9325
-vim RemoveDownloadedFiles.java 
-ls
-rm new.names.txt 
-javac RemoveDownloadedFiles.java 
-java RemoveDownloadedFiles 
-cat new.names.txt 
-vim names.txt 
-rm new.names.txt 
-java RemoveDownloadedFiles 
-cat new.names.txt 
 vim RemoveDownloadedFiles.java 
 ls
 scp RemoveDownloadedFiles.java test@redmine6.herui.me:/home/test/WFDBDATA/RemoveDownloadedFiles.java
@@ -1603,4 +379,1622 @@ sudo apt-get remove xl2tpd
 sudo apt-get autoremove
 sudo reboot
 ./Scripts/1-sogou 
+exit
+cd /mnt/f/blog/
+ls
+cd themes/
+ls
+cd lightum/
+ls
+cd source/
+ls
+cd js
+ls
+cd prettygist/
+ls
+cd syntax-styles/
+ls
+cd ..
+mv js/prettygist/syntax-styles/ css/
+ls
+cd css
+ls
+vim style.styl 
+cd _partial/
+ls
+cd ..
+cd syntax-styles/
+ls
+vim prettygist.min.css
+cd ..
+ls
+cd js
+ls
+cd prettygist/
+ls
+vim jquery.prettygist.min.js
+cd 
+cd blog
+ls
+vim ~/.vimrc 
+vim MEMO-To-be-continue.md 
+hexo d -c -g
+vim MEMO-To-be-continue.md 
+hexo d -g -c
+cd /mnt/f/blog/
+ls
+vim _config.yml
+hexo new test
+ls
+cd source/
+ls
+cd _posts/
+ls
+rm -rf test  
+rm test.md 
+cd ../..
+cd source/
+sl
+ls
+cd ..
+vim _config.yml
+vim .vim/UltiSnips/mkd.snippets 
+man 7 prol2tp
+prol2tp --help[
+prol2tp --help
+prol2tp -h
+man prol2tp
+man 8 prol2tp
+whereis prol2tp.conf
+tsocks hexo d -c -g
+polipo
+sudo apt-get install polipo
+service polipo stop
+polipo socksParentProxy=localhost:1080
+sudo polipo socksParentProxy=localhost:1080
+service polipo start
+vim /etc/bash.bashrc 
+sudo vim /etc/bash.bashrc 
+exit
+split
+vim
+cd blog
+vim MEMO-To-be-continue.md 
+vim ~/.vimrc 
+vim
+vim ~/.vimrc 
+vim
+wine --help
+vim ~/.vimrc 
+cd
+git status
+git commit -m "加入了加速hexo写作的一些工具"
+git status
+git add a
+git add all
+git add -a
+git add -u
+git status |mmore
+git status |more
+git commit -m "加入了加速hexo写作的一些工具"
+vim
+vim blog/MEMO-To-be-continue.md 
+vim .vimrc
+vim blog/MEMO-To-be-continue.md 
+ls
+cd .vim/UltiSnips/
+ls
+vim markdown.snipppets 
+cd
+vim .vimrc
+mv .vim/UltiSnips/markdown.snipppets .vim/UltiSnips/markdown.snippets
+vim blog/MEMO-To-be-continue.md 
+mv .vim/UltiSnips/markdown.snippets .vim/UltiSnips/mkd.snippets
+vim blog/MEMO-To-be-continue.md 
+vim .vimrc 
+vim blog/MEMO-To-be-continue.md 
+vim .vim/UltiSnips/
+vim .vim/UltiSnips/mkd.snippets 
+vim blog/MEMO-To-be-continue.md 
+cd blog
+hexo d -c -g
+vim MEMO-To-be-continue.md 
+hexo d -c -g
+cd /mnt/f/blog/
+ls
+cd public/
+ls
+cd tags/
+ls
+cd ..
+cd source/
+ls
+cd ..
+cd scaffolds/
+ls
+cd ..
+cd node_modules/
+ls
+cd hexo-generator-
+cd hexo-generator-tag/
+ls
+vim index.js 
+cd ..
+ls
+cd source/
+ls
+cd ..
+cd themes/
+ls
+cd lightum/
+ls
+cd source/
+ls
+cd js
+ls
+git clone https://github.com/Joe8Bit/pretty-gist.git
+ls
+mv pretty-gist/lib/ prettygist
+rm pretty-gist/
+rm pretty-gist/ -rf
+cd ..
+ls
+cd ..
+;s
+ls
+cd layout/
+ls
+cd _partial/
+ls
+cd ..
+ls
+vim layout.ejs 
+cd ..
+cd lightum/
+ls
+vim source/
+cd source/
+ls
+vim js/
+cd js/
+ls
+cd ../..
+ls
+cd layout/
+ls
+vim layout.ejs 
+ls
+mv backup layout.ejs .head.backup
+mv backup layout.ejs.head.backup
+cd
+cd blog
+vim 
+vim MEMO-To-be-continue.md 
+npm install hexo-qiniu-sync --save
+tsocks npm install hexo-qiniu-sync --save
+npm install hexo-qiniu-sync --save
+vim ../.vimrc 
+vim ~/.vimrc 
+vim ~/.vim/UltiSnips/mkd.snippets 
+ls
+rm Unity入手笔记.md 
+hexo new Unity入手笔记
+ls
+rm Unity入手笔记
+rm Unity入手笔记 -rf
+rm static/ -rf
+rm Unity入手笔记.md 
+hexo new Unity入手笔记
+ls
+rm cdn/ -rf
+vim Unity入手笔记
+vim Unity入手笔记.md 
+hexo server
+vim MEMO-To-be-continue.md 
+ls
+vim Unity入手笔记
+vim Unity入手笔记.md 
+hexo server
+vim Unity入手笔记
+vim Unity入手笔记.md 
+hexo server
+vim Unity入手笔记.md 
+hexo server
+vim Unity入手笔记.md 
+hexo server
+vim MEMO-To-be-continue.md 
+hexo clean
+hexo g
+mv MEMO-To-be-continue.md ..
+hexo g
+mv Unity入手笔记.md ..
+hexo server
+hexo clean
+hexo g
+mv ../*.md .
+ls
+nautilus .
+vim Unity入手笔记
+vim Unity入手笔记.md 
+hexo s
+hexo g
+hexo s
+ls
+mv sample.md ..
+hexo s
+vim Unity入手笔记.md 
+hexo s
+vim Unity入手笔记.md 
+hexo s
+vim Unity入手笔记.md 
+hexo s
+vim Unity入手笔记.md 
+hexo s
+hexo d -c -g
+hexo qiniu sync
+vim MEMO-To-be-continue.md 
+hexo d -c -g
+vim MEMO-To-be-continue.md 
+hexo d -c -g
+vim MEMO-To-be-continue.md 
+hexo d -c -g
+tsocks hexo d -c -g
+vim MEMO-To-be-continue.md 
+tsocks hexo d -c -g
+vim Unity入手笔记
+ls
+rm Unity入手笔记
+rm Unity入手笔记 -rd
+vim Unity入手笔记.md 
+hexo d -c -g
+tsocks bash
+exit
+cd
+vim .vimrc 
+vim
+vim .vimrc 
+hexo server
+hexo clean
+hexo g
+hexo clean
+hexo g
+hexo clean
+hexo g
+cd /mnt/f/blog/
+vim _config.yml
+hexo s
+vim _config.yml
+hexo s
+vim _config.yml
+hexo s
+vim _config.yml
+hexo -s
+hexo s
+vim _config.yml
+hexo s
+vim /mnt/f/blog/node_modules/hexo-renderer-markdown-it/node_modules/markdown-it/lib/index.js
+hexo s
+vim _config.yml
+vim /mnt/f/blog/node_modules/hexo-renderer-markdown-it/node_modules/markdown-it/lib/index.js
+vim _config.yml
+ls
+cd node_modules/
+ls
+cd hexo-qiniu-sync/
+ls
+vim sync.js 
+mv *.md blog
+ls
+ln -s ～/image
+cd
+ls
+cat test
+rm test
+lsls
+ls
+ls |grep image
+mkdir image
+ls |grep image
+ln -s ～/image
+ls
+rm -rd image
+cd
+cd /mnt/f/blog/source/_posts/static/images
+ln -s . ~/image
+ls
+rm image 
+ls ~
+pwd
+ln -s ~/image /mnt/f/blog/source/_posts/static/images
+cd 
+cd image
+ls
+cd ..
+
+ln -s ~/image /mnt/f/blog/source/_posts/static/images
+rm /mnt/f/blog/source/_posts/static/images
+rm /mnt/f/blog/source/_posts/static/images -rf
+ln -s /mnt/f/blog/source/_posts/static/images ~/image
+cd im
+ls
+cd image
+nautilus .
+ln -s /mnt/f/blog/source/_posts/static/images ~/image
+sudo su
+wget www.baidu.com
+ls
+cat index.html 
+rm index.html 
+exit
+source ~/.bashrc
+. ~/.bashrc
+wget www.baidu.com
+ls
+cat index.html 
+rm index.html 
+ls
+exit
+cat .bashrc 
+sudo su
+. /etc/bash.bashrc 
+source ~/.bash
+source ~/.bashrc 
+exit
+sudo vim /etc/bash.bashrc 
+. /etc/bash.bashrc 
+wget baidu.com
+source /etc/bash.bashrc 
+wget baidu.com
+vim .bashrc 
+exit
+ping localhost:1080
+curl -L git.io/cow | bash
+vim .cow/rc 
+vim .cow/blocked
+cow 
+./mnt/f/Ubuntu-Program/cow/cow 
+ls /mnt/f/Ubuntu-Program/
+ls /mnt/f/Ubuntu-Program/cow/
+ls /mnt/f/Ubuntu-Program/cow/cow 
+nautilus /mnt/f/Ubuntu-Program/
+./mnt/f/Ubuntu-Program/cow/cow 
+./mnt/f/Ubuntu-Program/cow/cow/cow
+cd /mnt/f/Ubuntu-Program/cow/
+ls
+./cow
+vim ~/.cow/rc
+./cow
+vim ~/.cow/rc
+./cow
+vim ~/.cow/rc
+wget www.baidu.com
+http_proxy=http://localhost:8123 curl www.google.com
+service polipo stop
+polipo socksParentProxy=localhost:1080
+sudo polipo socksParentProxy=localhost:1080
+http_proxy=http://localhost:8123 curl www.google.com
+man curl
+http_proxy=http://localhost:8123 curl www.baidu.com
+http_proxy=http://localhost:8118 curl www.google.com
+http_proxy=http://localhost:8118 curl www.baidu.com
+wget baidu.com
+sudo vim /etc/bash.bashrc 
+. /etc/bash.bashrc 
+source /etc/bash.bashrc 
+wget baidu.com
+sudo service privoxy restart
+sudo apt-get remove privoxy
+sudo aptitude autoclean
+sudo aptitude clean
+curl -L git.io/cow | bash
+sudo apt-get remove polipo
+sudo aptitude autoremove
+sudo aptitude clean
+sudo aptitude autoclean
+sudo aptitude install privoxy
+whereis provix
+whereis provixy
+provixy
+whereis provoxy
+whereis privoxy
+vim /etc/privoxy/config
+sudo vim /etc/privoxy/config
+privoxy
+privoxy -c 
+man privoxy
+privoxy --config-test /etc/privoxy/config
+privoxy  /etc/privoxy/config
+vim /etc/privoxy/config
+sudo vim /etc/privoxy/config
+ps aux |grep privoxy
+sudo kill 1584
+ps aux |grep privoxy
+privoxy /etc/privoxy/config
+sudo vim /etc/privoxy/config
+http_proxy=http://localhost:8118 curl www.baidu.com
+http_proxy=http://localhost:8118 curl www.baidu.com |more
+http_proxy=http://localhost:8118 curl www.google.com |more
+http_proxy=http://localhost:8118 wget www.google.com
+http_proxy=http://localhost:8118 curl www.youtube.com |more
+http_proxy=http://localhost:8118 curl www.youtube.com
+http_proxy=http://localhost:8118 curl www.facebook.com
+http_proxy=http://localhost:8118 curl www.twitter.com
+http_proxy=http://localhost:8118 curl www.baidu.com
+sudo vim /etc/bash.bashrc 
+exec bash
+wget www.baidu.com
+cat index.html
+ls
+rm index.html 
+ls /usr/local/etc/
+npm
+npm config get globalconfig
+vim /usr/local/etc/npmrv
+vim /usr/local/etc/npmrc
+sudo vim /usr/local/etc/npmrc
+cd blog
+hexo d -c -g
+wget www.baidu.com
+rm index.html 
+cd blog
+hexo d -c -g
+npm config set proxy="http://127.0.0.1:8118"
+hexo d -c -g
+vim /etc/bash.bashrc 
+sudo aptitude install proxychains
+cd
+proxychains
+whereis proxychains
+locate proxychains
+locate proxychains.conf
+man proxychains
+vim /etc/proxychains.conf
+sudo vim /etc/proxychains.conf
+proxychains curl www.baidu.com
+curl www.baidu.com
+cd blog 
+proxychains hexo d
+proxychains hexo d -c -g
+npm config set proxy http://localhost:8118
+proxychains hexo d -c -g
+cd blog
+proxychains hexo d -c -g
+hexo qiniu
+hexo qiniu sync
+proxychains hexo qiniu sync
+tsocks proxychains hexo qiniu sync
+npm config get proxy
+./Scripts/1-sogou 
+exit
+./Scripts/1-sogou 
+exit
+ssh test@redmine6.herui.me
+ifconfig
+cd blog
+ls
+vim Gitlab-Redmine-Jenkins折腾.md 
+cd /mnt/f/blog/
+ls
+vim _config.yml
+cd node_modules/
+ls
+cd hexo-qiniu-sync/
+ls
+vim sync.js
+cd node_modules/
+ls
+cd node-qiniu/
+ls
+vim index.js 
+cd lib/
+ls
+vim bucket.js 
+ls
+vim qiniu.js 
+vim utils.js 
+vim fop.js 
+vim bucket.js 
+cd ..
+ls
+cd node_modules/
+ls
+cd bufferhelper/
+ls
+cd ..
+cd q
+ls
+cd ..
+ls
+cd request/
+ls
+vim request.js 
+cd ..
+ls
+cd ..
+ls
+vim index.js 
+cd lib/
+ls
+vim bucket.js 
+cd ..
+ls
+cd node_modules/
+ls
+cd request/
+ls
+cat README.md 
+cat README.md |more
+npm config get proxy
+sudo service privoxy restart
+npm config set https-proxy http://localhost:8118/
+cd ..
+ls
+cd ..
+ls
+npm install -g https-proxy-agent --save
+wget www.baidu.com
+cat index.
+cat index.html 
+rm index.
+rm index.html 
+ls
+tsocks npm install -g http-proxy-agent --save
+npm install -g http-proxy-agent --save
+npm help config
+npm get proxy
+cd ..
+ls
+cd ..
+ls
+vim sync.js 
+cd node_modules/
+ls
+cd node-qiniu/
+ls
+cd lib/
+ls
+
+npm install -g http-proxy-agent --save
+npm set proxy
+npm get proxy
+npm install -g http-proxy-agent --save
+npm config set proxy =
+npm config set proxy = ""
+npm config set http_proxy = ""
+npm config set https_proxy = ""
+npm install -g http-proxy-agent --save
+npm config set https_proxy ""
+npm config set http_proxy ""
+npm install -g http-proxy-agent --save
+ping6 2607:3f00:11:40f::2
+ls
+cd blog
+hexo d -c -g
+npm get http-proxy
+npm get http_proxy
+npm get https_proxy
+ssh 'henry@2604:180:3:244::6574'
+ssh 'henry@2604:180:3:244::6574'
+ssh test@redmine6.herui.me
+cat .vim/UltiSnips/mkd.snippets 
+vim .vim/UltiSnips/mkd.snippets 
+cd /mnt/f/blog/node_modules/hexo-qiniu-sync/node_modules/node-qiniu
+ls
+vim ~/.vimrc 
+vim /etc/bash.bashrc 
+sudo vim /etc/bash.bashrc 
+source /etc/bash.bashrc 
+exit
+wget baidu.com
+cd
+cd /mnt/f/blog/
+cd node_modules/
+ls
+cd hexo-qiniu-sync/
+cd node_modules/node-qiniu/
+npm install -g http-proxy-agent --save
+exit
+./Scripts/1-sogou 
+exit
+ssh 'henry@2604:180:3:244::6574'
+ssh henry@herui.me
+ssh henry@herui.me -p 9325
+ssh root@2607:3f00:11:40f::2
+exit
+vim 简介.vim
+rm 简介
+vim 简介.md
+echo "qiniusync" >> /etc/rsync.password
+sudo echo "qiniusync" >> /etc/rsync.password
+sudo echo "qiniusync" > /etc/rsync.password
+sudo su
+exit
+sudo aptitude install inotify-tools 
+/usr/bin/inotifywait -mrq --timefmt '%Y/%m/%d-%H:%M:%S' --format '%T %w %f'  -e modify,delete,create,move,attrib /home/henryalps/image
+sudo aptitude install rsync
+ls
+rm index.html 
+cd image
+ls
+rm static/ -rf
+vim rsync.sh
+exit
+ssh root@2607:3f00:11:40f::2
+ssh henry@2607:3f00:11:40f::2 -p 9325
+exit
+cd /mnt/f/blog/
+ls
+nautilus .
+ls
+vim _config.yml
+ssh-copy-id henry@2607:3f00:11:40f::2
+ssh henry@2607:3f00:11:40f::2 -p 9325
+cd
+cd blog
+ls
+vim Unity入手笔记.md 
+hexo d -c -g
+sudo aptitude install inotify-tools
+vim Unity入手笔记.md 
+ls
+cd static
+cd ..
+ls
+hexo qiniu sync
+vim Unity入手笔记.md 
+hexo d -c -g
+ssh henry@2607:3f00:11:40f::2 -p 9325
+tsocks ssh henry@2607:3f00:11:40f::2 -p 9325
+tsocks bash
+vim /etc/bash.bashrc 
+http_proxy ssh henry@2607:3f00:11:40f::2 -p 9325
+ssh henry@2607:3f00:11:40f::2 -p 9325
+cd /mnt/f/blog/
+vim _config.yml
+/usr/bin/rsync 
+/usr/bin/rsync -auvrtzopgP --progress /etc/rsync.password /home/henryalps/image/ henry@2607:3f00:11:40f::2::module_test
+/usr/bin/rsync -auvrtzopgP -e 'ssh -p 9325' --progress /etc/rsync.password /home/henryalps/image/ henry@2607:3f00:11:40f::2::module_test
+/usr/bin/rsync -auvrtzopgP -e 'ssh -p 9325' --progress /etc/rsync.password /home/henryalps/image/ henry@[2607:3f00:11:40f::2]::module_test
+/usr/bin/rsync -auvrtzopgP -e 'ssh -p 9325' --progress /home/henryalps/image/ henry@[2607:3f00:11:40f::2]::module_test --password-file=/etc/rsync.password
+/usr/bin/rsync -auvrtzopgP -e 'ssh -p 9325' --progress /home/henryalps/image/ root@[2607:3f00:11:40f::2]::module_test --password-file=/etc/rsync.password
+/usr/bin/rsync -auvrtzopgP -e 'ssh -p 9325' --progress /home/henryalps/image/ henry@[2607:3f00:11:40f::2]::module_test --password-file=/etc/rsync.password
+rsync -vP /home/henryalps/image/ rsync://henry@[2607:3f00:11:40f::2]/module_test
+rsync -vP /home/henryalps/image/ rsync://henry@[2607:3f00:11:40f::2]/module_test /etc/rsync.password 
+rsync -vP /home/henryalps/image/ rsync://henry@[2607:3f00:11:40f::2]/module_test --password-file=/etc/rsync.password
+sudo rsync -vP /home/henryalps/image/ rsync://henry@[2607:3f00:11:40f::2]/module_test --password-file=/etc/rsync.password
+sudo rsync -vP /home/henryalps/image/* rsync://henry@[2607:3f00:11:40f::2]/module_test --password-file=/etc/rsync.password
+cd
+cd image
+ls
+vim rsync.sh 
+sudo ./rsync.sh 
+cat /var/log/rsync_client.log 
+touch test
+cat /var/log/rsync_client.log 
+ps aux |grep rsync
+sudo kill 6886
+sudo kill 6888
+ps aux |grep inotify
+sudo kill 6887
+ps aux |grep inotify
+ps aux |grep ino
+touch test
+rm test
+cat /var/log/rsync_client.log 
+vim rsync.sh 
+ping6  2604:a880:1:20::154:7001
+vim rsync.sh 
+./rsync.sh 
+sudo ./rsync.sh 
+touch q
+cat /var/log/rsync_client.log 
+rm q
+cat /var/log/rsync_client.log 
+ps aux |grep ino
+sudo kill 7117
+ps aux |grep rsync
+ps aux |grep rsy
+vim rsync.sh 
+/usr/bin/rsync -auvrtzopgP -e 'ssh -p 9325' --progress /home/henryalps/image/ henry@[2607:3f00:11:40f::2]::module_test --password-file=/etc/rsync.password
+vim rsync.sh 
+/usr/bin/rsync -vP /home/henryalps/image/* rsync://henry@[2607:3f    00:11:40f::2]/module_test --password-file=/etc/rsync.password
+vim rsync.sh 
+vim rsync.sh
+sudo ./rsync.sh 
+touch 123
+cat /var/log/rsync_client.log 
+cd
+cd /mnt/f/blog/
+vim _config.yml
+cat /var/log/rsync_client.log 
+vim _config.yml
+cd
+cd image
+ls
+rm 123 testautosync testautosync1 test.png 
+ls
+cat rsync.sh 
+echo './home/henryalps/image/rsync.sh'
+echo './home/henryalps/image/rsync.sh' >> /etc/rc.local
+sudo echo './home/henryalps/image/rsync.sh' >> /etc/rc.local
+echo './home/henryalps/image/rsync.sh' >> /etc/rc.local
+sudo su
+cd ..
+vim blog/Unity入手笔记.md 
+cd blog
+npm remove hexo-qiniu-sync
+npm set proxy
+npm set proxy "http://"
+npm set
+npm config
+npm config delete proxt
+npm config delete proxty
+npm config delete proxy
+vim ~/.vim/UltiSnips/mkd.snippets 
+vim Unity入手笔记.md 
+hexo d -c -g
+grep -rl qnimg
+vim Unity入手笔记.md 
+vim MEMO-To-be-continue.md 
+hexo d -c -g
+ls
+vim ~/.vim/UltiSnips/mkd.snippets 
+hexo new IPv6网络下hexo-qiniu-sync插件的替代方案：rsync+inotify+qrboxcli
+vim IPv6网络下hexo-qiniu-sync插件的替代方案：rsync-inotify-qrboxcli.md 
+vim 在教育网IPv6网络环境下设置Shadowsocks中继的-解决方案-etc.md 
+vim IPv6网络下hexo-qiniu-sync插件的替代方案：rsync-inotify-qrboxcli.md 
+exit
+exit
+mv tmp1.png ~/image/图片同步流程说明.png
+npm install hexo-qiniu-sync --save
+cd
+ls
+cd image
+ls
+cd /mnt/f/blog/
+ls
+cd qrsctl/
+ls
+cd
+cd image
+ls
+touch testautosync
+ls
+touch testautosync1
+cd
+ls
+cd /mnt/f/blog/
+ls
+vim _config.yml
+cd
+ls
+cd /mnt/f/blog/
+ls
+cd qrsctl/
+sl
+ls
+vim /etc/rc.local
+vim ./home/henryalps/image/rsync.sh
+vim /home/henryalps/image/rsync.sh
+vim /etc/rc.local
+cd ..
+cat _config.yml
+cat /home/henryalps/.vim/UltiSnips/mkd.snippets 
+vim _config.yml
+npm remove hexo-filter-auto-spacing
+hexo d -c -g
+exit
+ssh henry@2607:3f00:11:40f::2 -p 9325
+exit
+cd blog
+vim IPv6网络下hexo-qiniu-sync插件的替代方案：rsync-inotify-qrboxcli.md 
+exit
+vim blog/IPv6网络下hexo-qiniu-sync插件的替代方案：rsync-inotify-qrboxcli.md 
+hexo d -c -g
+cd blog
+hexo d -c -g
+vim IPv6网络下hexo-qiniu-sync插件的替代方案：rsync-inotify-qrboxcli.md 
+hexo d -c -g
+vim IPv6网络下hexo-qiniu-sync插件的替代方案：rsync-inotify-qrboxcli.md 
+vim MEMO-To-be-continue.md 
+vim IPv6网络下hexo-qiniu-sync插件的替代方案：rsync-inotify-qrboxcli.md 
+hexo d -c -g
+vim IPv6网络下hexo-qiniu-sync插件的替代方案：rsync-inotify-qrboxcli.md 
+hexo d -c -g
+vim MEMO-To-be-continue.md 
+hexo d -c -g
+cd /mnt/f/blog/node_modules/hexo-qiniu-sync/node_modules/node-qiniu
+npm config set registry "http://registry.npmjs.org/"
+npm config set proxy http://127.0.0.1:8118
+npm install -g http-proxy-agent --save
+sudo npm install -g http-proxy-agent --save
+ls
+cd node_modules/
+ls
+cd request/
+ls
+cd ..
+ls
+cd ..
+cd lib/
+ls
+vim qiniu.js 
+vim bucket.js
+sudo npm install -g http-proxy-agent --save
+sudo npm remove -g http-proxy-agent --save
+npm install http-proxy-agent --save
+ls
+cd ..
+ls
+cd node_modules/
+ls
+cd ..
+cd ls
+ls
+cd lib/
+ls
+vim bucket.js 
+ls
+vim utils.js 
+vim bucket.js 
+vim token.js 
+vim fop.js 
+vim utils.js 
+vim bucket.js 
+hexo d -c -g
+hexo qiniu sync
+cd 
+cd blog
+ls
+vim Unity入手笔记.md 
+hexo qiniu sync
+cd /mnt/f/blog/node_modules/hexo-qiniu-sync/node_modules/node-qiniu
+ls
+cd lib/
+ls
+vim utils.js 
+vim bucket.js 
+vim utils.js 
+vim fop.js 
+vim bucket.js 
+ls
+grep -rl 'request'
+vim asset.js 
+vim batch.js 
+vim image.js 
+vim token.js 
+vim bucket.js 
+vim batch.js 
+vim utils.js 
+vim batch.js 
+vim asset.js 
+vim batch.js 
+vim utils.js 
+hexo d -c -g
+vim asset.js
+hexo d -c -g
+vim asset.js 
+grep -rl 'agent: '
+vim batch.js 
+vim utils.js 
+hexo d -c -g
+hexo qiniu sync
+hexo d -c -g
+hexo qiniu sync
+ls
+vim utils.js 
+hexo d -c -g
+vim utils.js 
+ls
+vim bucket.js 
+vim utils.js 
+chmod +x ./qiniu-autosync.sh
+mv qiniu-autosync.sh ~/image
+ls
+cd 
+cd image
+ls
+vim autorun.sh
+vim appkey.json
+vim autorun.sh 
+ls
+mv appkey.json /mnt/f/blog/qrsctl/
+rm qiniu-devtools-linux_amd64-current.tar.gz 
+ls
+vim qiniu-autosync.sh 
+vim autorun.sh 
+chmod 775 qiniu-autosync.sh 
+./qiniu-autosync.sh 
+vim qiniu-autosync.sh 
+chmod 775 autorun.sh 
+./autorun.sh 
+vim autorun.sh 
+./autorun.sh 
+ls
+vim autorun.sh 
+tsocks wget www.baidu.com
+whereis tsocks
+vim /etc/tsocks.conf
+tsocks
+service tsocks restart
+http_proxy=127.0.0.1:8118 ./autorun.sh 
+ifconfig
+ping6 ipv6.google.com
+ping6 2001:778::37
+cd ..
+cd blog
+ls
+hexo d -c -g
+hexo
+hexo qiniu sync
+npm remove hexo-qiniu sync
+npm remove hexo-qiniu-sync
+npm set proxy ""
+npm get proxy
+npm install hexo-qiniu-sync --save
+npm set proxy "127.0.0.1:8118"
+npm set proxy "http://127.0.0.1:8118"
+npm install hexo-qiniu-sync --save
+ls
+hexo qiniu sync
+cd ..
+cd image
+ls
+cd ..
+cd blog
+ls
+vim Unity入手笔记.md 
+cd 
+cd image
+ls
+mv *.sh /mnt/f/blog/node_modules/hexo-qiniu-sync/
+ls
+cd 
+cd blog
+hexo qiniu sync
+npm set proxy ""
+hexo qiniu sync
+cd ..
+cd image
+ls
+rm *
+ls
+cd ..
+cd blog
+hexo qiniu sync
+cd ..
+cd image
+ls
+nautilus .
+hexo qiniu sync
+khexo qiniu sync
+hexo qiniu sync
+cd 
+cd blog
+vim tmp
+./Scripts/1-sogou 
+exit
+pwd
+ls
+wfdbdesc a44002_0078m.hea > a44002_0078m.yaml 
+subl a44002_0078m.yaml 
+wfdbdesc a44002_0078m.hea | sed -n '3p'
+wfdbdesc a44002_0078m.hea | sed '2,5d'
+wfdbdesc a44002_0078m.hea | sed '1,12d'
+wfdbdesc a44002_0078m.hea | sed '1,13d'
+ssh test@redmine6.herui.me
+exit
+ps aux |grep rsync
+./rsync &
+./rsync.sh &
+sudo ./rsync.sh &
+cat /var/log/rsyncd.log
+vim rsync.sh 
+cat /var/log/rsync_client.log 
+ls
+nohup ./rsync.sh > /dev/null &
+cat rsync.sh 
+sudo nohup ./rsync.sh > /dev/null &
+cp 图片/welcome@1.png .
+cat /var/log/rsync_client.log 
+cat /var/log/rsync_client.log 
+cd image
+ls
+mv hea文件格式.png hea文件格式 .png 
+mv hea文件格式.png Hea文件格式.png 
+cat /var/log/rsync_client.log 
+mv Hea文件格式.png hea文件格式.png
+mv ~/图片/ucas.jpg .
+cat /var/log/rsync_client.log 
+ls
+sudo ./rsync.sh &
+ls
+mv ucas.jpg  ~/图片/
+ls
+vim rsync.sh 
+sudo ./rsync.sh 
+cat /var/log/rsync_client.log 
+locate pathdef.m
+vim /usr/local/MATLAB/R2013b/toolbox/local/pathdef.m
+cat /var/log/rsync_client.log 
+service privoxy restart
+sudo service privoxy restart
+whereis privoxy
+vim /etc/privoxy/config
+exit
+wfdbdesc
+ls
+cd /mnt/f/blog/
+cat _config.yml
+cd /mnt/e/study/毕业/数据/header_analysis
+wfdbdesc a44002_0078m.hea > a44002_0078m.yaml
+cd 
+cd blog
+vim MIMIC数据预处理过程记录.md 
+hexo d -c -g
+vim MIMIC数据预处理过程记录.md 
+hexo d -c -g
+vim MIMIC数据预处理过程记录.md 
+hexo d -c -g
+vim MIMIC数据预处理过程记录.md 
+hexo d -c -g
+vim MIMIC数据预处理过程记录.md 
+hexo d -c -g
+cd blog
+ls
+grep 学场
+ls |grep linux
+vim e4-b8-80-e4-ba-9b-e6-9c-89-e7-94-a8-e7-9a-84linux-e5-91-bd-e4-bb-a4-ef-bc-88to-be-continue-ef-bc-89.md
+grep -rl "雪场"
+mv e9-9b-aa-e5-9c-ba-e5-89-8d-e5-8f-b0-e4-b8-80-e6-97-a5.md ../drafts
+ls
+cd ..
+ls
+hexo d -c -g
+cd blog
+hexo d -c -g
+cd /mnt/f/blog/
+ls
+rm db.json 
+hexo d -c -g
+ls
+cd source/
+ls
+vim drafts 
+mv drafts _drafts/学场前台一日.md
+cd _drafts/
+mv 学场前台一日.md 雪场前台一日.md
+ls
+vim 雪场前台一日.md 
+hexo d -c -g
+matlab
+sudo aptitude install dropbox*
+sudo aptitude install dropbox
+exit
+ssh test@redmine6.herui.me
+sudo pip install scrapy
+scrapy startproject asingrabber
+cd asingrabber/asingrabber/
+vim items.py 
+ls
+cd spiders/
+ls
+vim searchgoodspider.py
+cd ../..
+ls
+spider crawl sgs
+scrapy crawl sgs
+sudo pip install service_identity
+scrapy crawl sgs
+tsocks scrapy crawl sgs
+ssh henry@2607:3f00:11:40f::2 -p 9325
+dig herui.me
+exit
+git iniit
+git init
+git add origin https://github.com/henryalps/asingrabber.git
+git origin
+git remote add origin git@github.com:henryalps/asingrabber.git
+git pull
+git pull origin master
+ls
+git add *
+git commit -am "initial submit"
+git push
+ls
+cd asingrabber/
+ls
+scrapy crawler sgs
+scrapy crawl sgs
+ls
+cd asingrabber/
+ls
+vim spiders/searchgoodspider.py
+cd ../..
+scrapy crawl sgs
+ls
+cd asingrabber/
+scrapy crawl sgs
+ls
+tsocks scrapy crawl sgs
+ls
+rm www.amazon.com 
+ls
+tsocks scrapy crawl sgs
+vim /etc/bash.bashrc 
+cat /etc/privoxy/config
+vim /etc/privoxy/config
+sudo vim /etc/bash.bashrc 
+source /etc/bash.bashrc 
+scrapy crawl sgs
+ls
+service privoxy restart
+sudo service privoxy restart
+exit
+cd /mnt/f/
+ls
+cd /mnt/e/
+ls
+cd study/
+ls
+cd amazon-crawler/
+ls
+cd Scrapy/
+ls
+cd asingrabber/
+ls
+scrapy crawl sgs
+cd /mnt/e/study/graduate/data/header_analysis
+ls
+cat test.mat 
+ssh henry@herui.me
+ssh henry@herui.me -p 9325
+cd blog
+ls
+nautilus /mnt/e/study/graduate/data/header_analysis
+wfdbdesc
+wfdbdesc a44002_0078m.hea 
+wfdbdesc a44002_0078m.hea -readable
+wfdbdesc a44002_0078m.hea 
+matlab
+cd
+cd blog
+vim MIMIC数据预处理过程记录.md 
+hexo d -c -g
+vim readYAML.m 
+ls
+cd /mnt/e/study/graduate/data/header_analysis
+ls
+ls |grep .yaml > yaml.names.txt
+matlab
+./Scripts/1-sogou 
+exit
+ssh test@redmine6.herui.me
+exit
+grep -n "Group" a44002_0078m.yaml 
+grep -n "Group" a44002_0078m.yaml |head -1
+grep -n "Group" a44002_0078m.yaml |head -1 |cut -d ":" -f
+grep -n "Group" a44002_0078m.yaml |head -1 |cut -d ":" -f 1`
+
+;
+`
+grep -n "Group" a44002_0078m.yaml |head -1 |cut -d ":" -f 1`
+
+;
+`
+grep -n "Group" a44002_0078m.yaml |head -1 |cut -d ":" -f 1
+grep -n "Group" a44002_0078m.yaml |head |cut -d ":" -f 1
+ grep -n "Group" a44002_0078m.yaml | head -1 | cut -d ":" -f 1
+echo "13"13
+echo "abc"1454
+ls
+cat test.mat
+cat a44002_0078m.yaml 
+cat a44002_0078m.yaml | sed "1,100" | echo
+cat a44002_0078m.yaml | sed "1,100d" | echo
+cat a44002_0078m.yaml | sed "1,50d" | echo
+cat a44002_0078m.yaml | sed "1,20d" | echo
+cat a44002_0078m.yaml | sed "1,10d" | echo
+cat a44002_0078m.yaml | sed "1,10d" 
+cat a44002_0078m.yaml | sed "1,100d" 
+echo eroedfhdso;fujdorueoruefh > test.txt 
+echo eroedfhdsofujdorueoruefh > test.txt 
+ls
+cat test.txt 
+echo 1 >test.txt
+cat test.txt 
+cat a44002_0078m.yaml | sed "1,100d" 
+vim a44002_0078m.yaml 
+grep -n "Group" a44002_0078m.yaml | head -1 | cut -d ":" -f 1
+num = grep -n "Group" a44002_0078m.yaml | head -1 | cut -d ":" -f 1
+num = (grep -n "Group" a44002_0078m.yaml | head -1 | cut -d ":" -f 1)
+echo $num
+(grep -n "Group" a44002_0078m.yaml | head -1 | cut -d ":" -f 1)
+echo (grep -n "Group" a44002_0078m.yaml | head -1 | cut -d ":" -f 1)
+(grep -n "Group" a44002_0078m.yaml | head -1 | cut -d ":" -f 1) | echo
+(grep -n "Group" a44002_0078m.yaml | head -1 | cut -d ":" -f 1) |  e
+(grep -n "Group" a44002_0078m.yaml | head -1 | cut -d ":" -f 1) > test.txt
+vim test.txt 
+rm test.txt 
+(grep -n "Group" a44002_0078m.yaml | head -1 | cut -d ":" -f 1) > test.txt
+vim test.txt 
+(grep -n "Group" a44002_0078m.yaml | head -1 | cut -d ":" -f 1) > echo
+(grep -n "Group" a44002_0078m.yaml | head -1 | cut -d ":" -f 1) 
+a=`grep -n "Group" a44002_0078m.yaml | head -1 | cut -d ":" -f 1` 
+echo $a
+$a -gt 1
+echo [$a -gt 1]
+echo $[$a -gt 1]
+echo ${$a -gt 1}
+echo $(($a>1))
+echo $(($a<1))
+echo "a"${a}"b"
+cat a44002_0078m.yaml | sed "1,100d" 
+cat a44002_0078m.yaml | sed "1,0d" 
+cat a44002_0078m.yaml | sed "1,-1d" 
+cat test.txt |sed "1,0d"
+cat test.txt |sed "0,0d"
+cat test.txt |sed "1,1d"
+cat test.txt 
+exit
+ssh test@redmine6.herui.me
+exit
+vim yamlbat.sh
+cd blog
+ls
+vim MIMIC数据预处理过程记录.md 
+hexo d -c -g
+ls |grep 'be continue'
+ls |grep continue
+vim 5-b0-8f-e6-8a-80-e5-b7-a7-ef-bc-88to-be-continue-ef-bc-89.md
+vim e5-b0-8f-e6-8a-80-e5-b7-a7-ef-bc-88to-be-continue-ef-bc-89.md
+hexo d -c -g
+cd /mnt/f/blog/themes/lightum/layout/_widget/
+ls
+vim links.ejs
+cd ..
+cd languages/
+ls
+vim zh-CN.yml 
+vim zh-TW.yml 
+ls
+vim default.yml 
+cd ..
+ls
+vim _config.yml 
+cd ..
+ls
+cd ..
+ls
+vim _config.yml
+hexo d -c -g
+cd themes/lightum/
+ls
+cd languages/
+ls
+vim zh-CN.yml
+vim default.yml 
+cd ..
+ls
+cd layout/_partial/
+ls
+cd ..
+ls
+cd _widget/
+ls
+vim links.ejs 
+hexo d -c -g
+cd
+cd blog
+vim MIMIC数据预处理过程记录.md 
+vim article.styl 
+cd ..
+ls
+vim style.styl 
+cd ../..
+cd layout/_widget/
+vim toc.ejs
+cd ..
+vim _config.yml 
+cd source/js/
+vim toc.js
+hexo s
+cd ..
+ls
+cd layout/
+ls
+cd _partial/
+ls
+cd ..
+ls
+cd ..
+ls
+cd source/css/
+ls
+cd _partial/
+ls
+mv toc.style toc.styl
+hexo s
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+vim _config.yml 
+cd languages/
+ls
+vim zh-TW.yml 
+vim zh-CN.yml 
+vim default.yml 
+hexo s
+cd
+ls
+cd /mnt/e/0/
+ls
+cd data/
+ls
+mkdir abp_detection
+cd abp_detection/
+ls
+wabp
+ls
+cd ..
+ls
+cd header_analysis/
+ls
+cd ..
+cd header_analysis/
+ls
+cat a44002_0078m.hea 
+nautilus
+nautilus .
+wabp 
+wabp -r a44002_0078m 
+wabp -r a44002_0078m -s 1
+wabp -r a44002_0078m -s 2
+wabp -r a44002_0078m -s 3
+wabp -r a44002_0078m -s 4
+wabp -r slpdb/slp60 -f 5:0 -t 10:35 -s 1
+wabp -r a44002_0078 -s 4
+wabp -r a44002_0078m
+ls
+rm slpdb/ -rf
+cd ../abp_detection/
+ls
+wabp -r a44002_0078m
+ls
+cat a44002_0078m.wabp 
+rdann
+cd
+ls
+cd /mnt/e/study/
+ls
+cd amazon-crawler/
+ls
+cd Scrapy/
+ls
+cd asingrabber/
+ls
+scrapy crawl sgs
+ls
+cd ..
+ls
+cd asingrabber/
+ls
+scrapy crawl sgs
+ls
+cd ..
+ls
+cd asingrabber/
+ls
+cd asingrabber/
+ls
+cd ..
+vim /etc/bash.bashrc 
+suo vim /etc/bash.bashrc 
+sudo vim /etc/bash.bashrc 
+scrapy crawl sgs
+exit
+sudo apt-get install
+sudo apt-get update
+sudo aptitude install lsb-release scrot
+screenFetch
+mkdir ~/screenfetch
+cd ~/screenfetch
+wget -O screenfetch 'https://raw.github.com/KittyKatt/screenFetch/master/screenfetch-dev'
+cd screenfetch/
+sudo service privoxy restart
+wget -O screenfetch 'https://raw.github.com/KittyKatt/screenFetch/master/screenfetch-dev'
+tsocks wget -O screenfetch 'https://raw.github.com/KittyKatt/screenFetch/master/screenfetch-dev'
+vim /etc/bash.bashrc 
+sudo vim /etc/bash.bashrc 
+exit
+matlab
+hexo s
+cd 
+cd blog
+ls
+hexo new 网易有道Android开发实习生准备记录
+vim 网易有道Android开发实习生准备记录.md 
+cd /mnt/f/blog/
+ls
+cd themes/lightum/
+ls
+vim _config.yml 
+cd la
+cd languages/
+ls
+vim zh-CN.yml
+hexo s
+cd ../../..
+ls
+cd source/_posts/
+ls
+vim MEMO-To-be-continue.md 
+cd ../..
+ls
+cd themes/
+sl
+ls
+cd lightum/
+ls
+cd layout/_widget/
+ls
+vim search.ejs
+cp search.ejs search.ejs.backup
+ls
+cd ..
+ls
+vim archive.ejs 
+vim category.ejs 
+vim layout.ejs
+cd _widget/
+ls
+grep -rl .js
+vim rss.ejs
+vim twitter.ejs 
+vim /mnt/f/blog/themes/
+vim /mnt/f/blog/themes/lightum/source/js/swiftype.js
+vim search.ejs
+vim twitter.ejs 
+hexo s
+hexo d -c -g
+vim search.ejs
+hexo d -c -g
+vim search.ejs
+vim twitter.ejs 
+vim links.ejs 
+vim search.ejs
+vim twitter.ejs 
+cd ..
+cd source/js/
+ls
+locate twitter.js
+vim swiftype.js 
+hexo d -c -g
+vim swiftype.js 
+hexo d -c -g
+vim swiftype.js 
+cd ..c//
+cd ../..
+ls
+cd layout/_widget/
+ls
+vim search.ejs
+cd ..
+ls
+cd _widget/
+ls
+vim search.ejs
+cd ..
+ls
+vim _partial/after_footer.ejs 
+hexo d -c -g
+cd ..
+ls
+cd source/
+ls
+cd ..
+sl
+cd layout/_widget/
+ls
+vim links.ejs 
+hexo d -c -g
+cd blog
+vim MIMIC数据预处理过程记录.md 
+hexo s
+vim MIMIC数据预处理过程记录.md 
+vim MEMO-To-be-continue.md 
+hexo d -c -g
+hexo s
+hexo clear
+hexo clean
+ls
+cd /mnt/f/blog/
+ls
+rm db.json 
+hexo d -c -g
+wget -O screenfetch 'https://raw.github.com/KittyKatt/screenFetch/master/screenfetch-dev'
+cd screenfetch/
+wget -O screenfetch 'https://raw.github.com/KittyKatt/screenFetch/master/screenfetch-dev'
+chmod +x screenfetch 
+./screenfetch 
+sudo cp screenfetch /usr/local/bin/
+screenfetch 
+sudo aptitude install zsh
+zsh --version
+bash
+sh
+cd /mnt/e/study/amazon-crawler/
+ls
+cd Scrapy/
+ls
+cd asingrabber/
+ls
+cd asingrabber/
+ls
+cd ..
+scrapy crawl sgs
+ls
+cd asingrabber/
+ls
+cd spiders/
+ls
+vim searchgoodspider.py
+cd ../..
+scrapy crawl sgs
+wget www.baidu.com
+ls
+cat index.html 
+ls
+rm index.html 
+ls
+scrapy crawl sgs
+vim /etc/bash.bashrc 
+sudo vim /etc/bash.bashrc 
+ssh test@redmine6.herui.me
+vim .bash_profile 
+exit
+ls
+uninstall_oh_my_zsh
+cd .oh-my-zsh/tools/
+ls
+chmod 775 uninstall.sh 
+./uninstall.sh 
+ls
+cd ..
+cd ../..
+ls
+sudo aptitude
+sudo aptitude --help
+sudo aptitude install -f zsh
+zsh --version
+chsh -s /usr/bin/zsh 
+exit
+vim /etc/shells 
+chsh -s /usr/bin/zsh 
+sudo chsh -s /usr/bin/zsh 
+exit
+chsh -s /usr/bash
+chsh -s /usr/bin/bash
+vim /etc/shells 
+chsh -s /bin/bash
+exit
+vim .bash_profile 
+exit
+ls
+sudo aptitude install fish
+curl -L https://github.com/bpinto/oh-my-fish/raw/master/tools/install.fish | fish
+vim /etc/shells 
+vim .bash_profile
+echo $FISH_VERSION
+fish --version
+echo $ZSH_VERSION
+echo $fish_version
+echo $fish
+echo $FISH
+echo $VERSION
+vim .bash_profile
 exit
